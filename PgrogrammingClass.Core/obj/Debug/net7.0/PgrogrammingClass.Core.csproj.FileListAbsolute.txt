@@ -1,0 +1,14 @@
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\bin\Debug\net7.0\PgrogrammingClass.Core.deps.json
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\bin\Debug\net7.0\PgrogrammingClass.Core.runtimeconfig.json
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\bin\Debug\net7.0\PgrogrammingClass.Core.dll
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\bin\Debug\net7.0\PgrogrammingClass.Core.pdb
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.csproj.AssemblyReference.cache
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.AssemblyInfoInputs.cache
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.AssemblyInfo.cs
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.csproj.CoreCompileInputs.cache
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.dll
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\refint\PgrogrammingClass.Core.dll
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.pdb
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\PgrogrammingClass.Core.genruntimeconfig.cache
+E:\ProgrammingCalssProject\PgrogrammingClass.Core\obj\Debug\net7.0\ref\PgrogrammingClass.Core.dll

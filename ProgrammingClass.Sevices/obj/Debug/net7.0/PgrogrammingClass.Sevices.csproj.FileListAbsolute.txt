@@ -1,0 +1,12 @@
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Sevices.deps.json
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Sevices.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Sevices.pdb
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.csproj.AssemblyReference.cache
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.AssemblyInfoInputs.cache
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.AssemblyInfo.cs
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.csproj.CoreCompileInputs.cache
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\refint\PgrogrammingClass.Sevices.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.pdb
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\ref\PgrogrammingClass.Sevices.dll
