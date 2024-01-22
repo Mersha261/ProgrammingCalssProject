@@ -15,7 +15,8 @@ namespace PgrogrammingClass.Data.DataContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.;initial catalog=ProgrammingCalssProject;Trusted_Connection=True;MultipleActiveResultSets=true");
+            
+            optionsBuilder.UseSqlServer("Server=.;initial catalog=ProgrammingCalssProject;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;");
         }
 
         public DbSet<TblBanner> TblBanner { get; set; }

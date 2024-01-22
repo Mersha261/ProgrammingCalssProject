@@ -12,8 +12,8 @@ using PgrogrammingClass.Data.DataContext;
 namespace PgrogrammingClass.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240115181108_First")]
-    partial class First
+    [Migration("20240122165818_FirstMigration")]
+    partial class FirstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
