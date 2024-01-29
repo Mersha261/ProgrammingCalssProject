@@ -12,3 +12,10 @@ ProgrammingCalss.Data/obj/Debug/net7.0/ref/PgrogrammingClass.Data.dll
 ProgramingCalssProject/.vs/ProgramingCalssProject/v17/.suo
 ProgramingCalssProject/.vs/ProgramingCalssProject/v17/.suo
 *.bin
+*.dll
+*.cache
+*.BuildWithSkipAnalyzers
+*.cache
+*.dll
+*.pdb
+*.dll

@@ -8,18 +8,17 @@ using System.Threading.Tasks;
 
 namespace PgrogrammingClass.Core.Domain
 {
-    public class TblBanner
+    public class TblBanner : BaseEntity
     {
-        public int Id { get; set; }
 
         [Display(Name = "تصویر")]
-        [MaxLength(200,ErrorMessage =ErrMsgCore.MaxLenghtMsg)]
+        [MaxLength(200, ErrorMessage = ErrMsgCore.MaxLenghtMsg)]
         public string Picture { get; set; }
 
 
         [Display(Name = "عنوان")]
-        [MaxLength(100, ErrorMessage =ErrMsgCore.MaxLenghtMsg)]
-        [Required(AllowEmptyStrings =false,ErrorMessage =ErrMsgCore.RequierdMsg)]
+        [MaxLength(100, ErrorMessage = ErrMsgCore.MaxLenghtMsg)]
+        [Required(AllowEmptyStrings = false, ErrorMessage = ErrMsgCore.RequierdMsg)]
         public string Title { get; set; }
 
         [Display(Name = "متن جایگذین")]

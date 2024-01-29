@@ -13,5 +13,6 @@ namespace PgrogrammingClass.Core.Utilitty
         public const string MinLenghtMsg = "{0} نباید کمتر از {1} کاراکتر باشد";
         public const string RegexMsg = "قالب {0} اشتباه است";
         public const string RangeMsg = "رنج {0} باید بین {1} تا {2} درصد باشد";
+        public const string MobileCheckLength = "شماره موبایل معتبر نیست";
     }
 }
