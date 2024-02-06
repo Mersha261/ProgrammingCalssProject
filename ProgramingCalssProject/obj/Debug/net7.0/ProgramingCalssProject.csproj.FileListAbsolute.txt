@@ -267,3 +267,5 @@ E:\ProgrammingCalssProject\ProgramingCalssProject\obj\Debug\net7.0\refint\Progra
 E:\ProgrammingCalssProject\ProgramingCalssProject\obj\Debug\net7.0\ProgramingCalssProject.pdb
 E:\ProgrammingCalssProject\ProgramingCalssProject\obj\Debug\net7.0\ProgramingCalssProject.genruntimeconfig.cache
 E:\ProgrammingCalssProject\ProgramingCalssProject\obj\Debug\net7.0\ref\ProgramingCalssProject.dll
+E:\ProgrammingCalssProject\ProgramingCalssProject\bin\Debug\net7.0\PgrogrammingClass.Sevices.dll
+E:\ProgrammingCalssProject\ProgramingCalssProject\bin\Debug\net7.0\PgrogrammingClass.Sevices.pdb

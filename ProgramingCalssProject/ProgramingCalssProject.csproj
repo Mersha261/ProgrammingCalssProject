@@ -21,7 +21,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProgrammingCalss.Data\PgrogrammingClass.Data.csproj" />
+    <ProjectReference Include="..\ProgrammingClass.Sevices\PgrogrammingClass.Sevices.csproj" />
   </ItemGroup>
 
 </Project>

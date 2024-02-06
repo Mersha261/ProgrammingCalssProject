@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PgrogrammingClass.Core.Domain;
+using PgrogrammingClass.Data.DataContext;
 using ProgramingCalssProject.Models;
 using System.Diagnostics;
 
@@ -7,7 +9,6 @@ namespace ProgramingCalssProject.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -18,16 +19,25 @@ namespace ProgramingCalssProject.Controllers
             return View();
         }
 
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
         }
 
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(/*new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier }*/);
         }
     }
 }

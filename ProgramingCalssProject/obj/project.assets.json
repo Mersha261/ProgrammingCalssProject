@@ -4664,6 +4664,19 @@
         "runtime": {
           "bin/placeholder/PgrogrammingClass.Data.dll": {}
         }
+      },
+      "PgrogrammingClass.Sevices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PgrogrammingClass.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PgrogrammingClass.Sevices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PgrogrammingClass.Sevices.dll": {}
+        }
       }
     }
   },
@@ -12812,6 +12825,11 @@
       "type": "project",
       "path": "../ProgrammingCalss.Data/PgrogrammingClass.Data.csproj",
       "msbuildProject": "../ProgrammingCalss.Data/PgrogrammingClass.Data.csproj"
+    },
+    "PgrogrammingClass.Sevices/1.0.0": {
+      "type": "project",
+      "path": "../ProgrammingClass.Sevices/PgrogrammingClass.Sevices.csproj",
+      "msbuildProject": "../ProgrammingClass.Sevices/PgrogrammingClass.Sevices.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12823,7 +12841,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.15",
       "Microsoft.VisualStudio.Web.CodeGeneration >= 7.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11",
-      "PgrogrammingClass.Data >= 1.0.0"
+      "PgrogrammingClass.Data >= 1.0.0",
+      "PgrogrammingClass.Sevices >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12860,6 +12879,9 @@
           "projectReferences": {
             "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj": {
               "projectPath": "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj"
+            },
+            "E:\\ProgrammingCalssProject\\ProgrammingClass.Sevices\\PgrogrammingClass.Sevices.csproj": {
+              "projectPath": "E:\\ProgrammingCalssProject\\ProgrammingClass.Sevices\\PgrogrammingClass.Sevices.csproj"
             }
           }
         }

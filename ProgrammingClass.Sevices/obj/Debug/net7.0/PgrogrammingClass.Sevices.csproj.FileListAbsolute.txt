@@ -10,3 +10,8 @@ E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\Pgrogrammin
 E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\refint\PgrogrammingClass.Sevices.dll
 E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.pdb
 E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\ref\PgrogrammingClass.Sevices.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Core.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Data.dll
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Data.pdb
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\bin\Debug\net7.0\PgrogrammingClass.Core.pdb
+E:\ProgrammingCalssProject\ProgrammingClass.Sevices\obj\Debug\net7.0\PgrogrammingClass.Sevices.csproj.CopyComplete

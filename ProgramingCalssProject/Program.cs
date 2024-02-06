@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Data.DataContext;
-
+using PgrogrammingClass.Sevices.EntitesServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +37,15 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 
+#region Myervices
+builder.Services.AddScoped<IAboutUsService, AboutUsService>();
+builder.Services.AddScoped<IBannerService, BannerService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICityService, CityService>();
+#endregion
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -64,6 +73,13 @@ app.UseEndpoints(endpoints =>
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
     endpoints.MapRazorPages();
+
+
+    endpoints.MapControllerRoute(
+      name: "Admin",
+      pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}"
+    );
+
 });
 app.MapRazorPages();
 app.Run();

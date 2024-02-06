@@ -14,8 +14,7 @@ namespace PgrogrammingClass.Data.DataContext
             :base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            
+        {            
             optionsBuilder.UseSqlServer("Server=.;initial catalog=ProgrammingCalssProject;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;");
         }
 

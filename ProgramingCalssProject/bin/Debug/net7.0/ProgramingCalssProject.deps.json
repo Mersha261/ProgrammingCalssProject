@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.15",
           "Microsoft.VisualStudio.Web.CodeGeneration": "7.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11",
-          "PgrogrammingClass.Data": "1.0.0"
+          "PgrogrammingClass.Data": "1.0.0",
+          "PgrogrammingClass.Sevices": "1.0.0"
         },
         "runtime": {
           "ProgramingCalssProject.dll": {}
@@ -2850,6 +2851,14 @@
         "runtime": {
           "PgrogrammingClass.Data.dll": {}
         }
+      },
+      "PgrogrammingClass.Sevices/1.0.0": {
+        "dependencies": {
+          "PgrogrammingClass.Data": "1.0.0"
+        },
+        "runtime": {
+          "PgrogrammingClass.Sevices.dll": {}
+        }
       }
     }
   },
@@ -4727,6 +4736,11 @@
       "sha512": ""
     },
     "PgrogrammingClass.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PgrogrammingClass.Sevices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
