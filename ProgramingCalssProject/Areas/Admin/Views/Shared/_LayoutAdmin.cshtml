@@ -1,7 +1,4 @@
-﻿@{
-    Layout = null;
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,73 +11,70 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProgrammingClassFirst.styles.css" asp-append-version="true" />
     <link href="~/slickslider/slick/slick.css" rel="stylesheet" />
-    <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />
-
+    <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />   
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row bg-theme ">
-            <div class="col-6">
-                <div class="bg-theme" style=" background-color: #1a92bc !important;
-    height: 46px;
-    padding: 6px;
-    width: 40px;
-cursor:pointer;
-display:inline-block">
-                    <i class="fa fa-align-justify text-white"></i>
 
-                </div>
-                <div class="d-inline-block">
-                    مرشا عزیز خوش آمدید
-                </div>
-            </div>
-            <div class="col-4 text-left">
-                <a class="btn btn-danger btn-sm m-2 text-white" asp-action="">خروج</a>
-            </div>
-        </div>
-
-        <div style="background-color: #1a92bc;
+    <div id="mySidebar" class="w3-animate-right" style="display:none;background-color: #1a92bc;
     position: absolute;
-    top: 47px;
-    right: 15px;
+    top: 45px;
     height: -webkit-fill-available;
     width: 250px;
     box-shadow:-3px 6px 7px 4px;">
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-dashboard fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">داشبورد</a>
+        <div style="position:absolute;left:15px;top:15px;cursor:pointer" onclick="w3_close()">
+        <i class="fa fa-close w3-text-white w3-xlarge"></i>
+    </div>
+    <a class="btnav btn-primary" asp-action="index" asp-controller="Admin" asp-area="Admin" >test</a>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-dashboard fontsize-30"></i> <a  asp-action="" class="text-white mr-2">داشبورد</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-chain fontsize-30"></i> <a asp-action="" class="text-white mr-2">صفحه اصلی</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class=" fa fa-check-square-o fontsize-30"></i> <a asp-action="" class="text-white mr-2">محصولات</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-info-circle fontsize-30"></i>
+            <a asp-area="Admin" asp-controller="Admin" asp-action="AboutUs" class="text-white mr-2">درباره ما</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-phone-square fontsize-30"></i> <a  asp-action="" class="text-white mr-2">تماس با ما</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-image fontsize-30"></i> <a  asp-action="" class="text-white mr-2">بنر سایت</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa  fa-dedent fontsize-30"></i> <a  asp-action="" class="text-white mr-2">شهر ها</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-empire fontsize-30"></i> <a  asp-action="" class="text-white mr-2">استان ها</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-gears fontsize-30"></i> <a  asp-action="" class="text-white mr-2">تنظیمات پستی</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-gear fontsize-30"></i> <a  asp-action="" class="text-white mr-2">تنظیمات</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-share-alt fontsize-30"></i> <a  asp-action="" class="text-white mr-2">شبکه های اجتماعی</a>
+        </div>
+        <div class="text-white p-2 w3-hover-teal">
+            <i class="fa fa-user-circle fontsize-30"></i> <a  asp-action="" class="text-white mr-2">مدیریت کاربران</a>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-theme ">
+            <div class="col-8">
+                <div class="d-inline-block p-1 cursor-pointer" onclick="w3_open()">
+                    <i class="fa fa-align-justify m-1 w3-xlarge text-white"></i>
+                </div>
+                <div class="d-lg-inline-block d-md-inline-block w3-large text-white d-none ">
+                    مرشا عزیز خوش آمدید
+                </div>
             </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-chain fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">صفحه اصلی</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class=" fa fa-check-square-o fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">محصولات</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-info-circle fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">درباره ما</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-phone-square fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">تماس با ما</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-image fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">بنر سایت</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa  fa-dedent fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">شهر ها</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-empire fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">استان ها</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-gears fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">تنظیمات پستی</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-gear fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">تنظیمات</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-share-alt fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">شبکه های اجتماعی</a>
-            </div>
-            <div class="text-white p-2 w3-hover-teal">
-                <i class="fa fa-user-circle fontsize-30"></i> <a href="#" asp-action="" class="text-white mr-2">مدیریت کاربران</a>
+            <div class="col-3 text-left">
+                <span><a class="btn btn-danger btn-sm m-2 text-white" asp-action="">خروج</a></span>
             </div>
         </div>
     </div>
@@ -89,16 +83,22 @@ display:inline-block">
             @RenderBody()
         </main>
     </div>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/slickslider/slick/slick.min.js"></script>
-
+    <script src="~/slickslider/slick/slick.min.js"></script>   
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
 
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
 </body>
 </html>

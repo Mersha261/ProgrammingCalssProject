@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\ProgramingCalssProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProgramingCalssProject.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Steve-Jobs-Quotes-18.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Steve-Jobs-Quotes-18.jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (17).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (17).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (18).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (18).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (19).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (19).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (20).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (20).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (21).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (21).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (22).JPG",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (22).JPG"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (23).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (23).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (24).jpg",
+      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (24).jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\baner3.jpg",
+      "PackagePath": "staticwebassets\\Pic\\baner3.jpg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.eot",
+      "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.eot"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.ttf",
+      "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.ttf"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff",
+      "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.woff"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff2",
+      "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.woff2"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\w3.css",
+      "PackagePath": "staticwebassets\\css\\w3.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\popper.js.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\.gitignore",
+      "PackagePath": "staticwebassets\\slickSlider\\.gitignore"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\CONTRIBUTING.markdown",
+      "PackagePath": "staticwebassets\\slickSlider\\CONTRIBUTING.markdown"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\slickSlider\\ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\LICENSE",
+      "PackagePath": "staticwebassets\\slickSlider"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\Makefile",
+      "PackagePath": "staticwebassets\\slickSlider"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\README.markdown",
+      "PackagePath": "staticwebassets\\slickSlider\\README.markdown"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\bower.json",
+      "PackagePath": "staticwebassets\\slickSlider\\bower.json"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\component.json",
+      "PackagePath": "staticwebassets\\slickSlider\\component.json"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\index.html",
+      "PackagePath": "staticwebassets\\slickSlider\\index.html"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\package.json",
+      "PackagePath": "staticwebassets\\slickSlider\\package.json"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick.jquery.json",
+      "PackagePath": "staticwebassets\\slickSlider\\slick.jquery.json"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\config.rb"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.css"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.less"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.min.js"
+    },
+    {
+      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.scss"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ProgramingCalssProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.ProgramingCalssProject.props",
+      "PackagePath": "build\\ProgramingCalssProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ProgramingCalssProject.props",
+      "PackagePath": "buildMultiTargeting\\ProgramingCalssProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.ProgramingCalssProject.props",
+      "PackagePath": "buildTransitive\\ProgramingCalssProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

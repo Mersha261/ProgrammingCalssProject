@@ -1,0 +1,15 @@
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\bin\Release\net7.0\PgrogrammingClass.Data.deps.json
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\bin\Release\net7.0\PgrogrammingClass.Data.dll
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\bin\Release\net7.0\PgrogrammingClass.Data.pdb
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\bin\Release\net7.0\PgrogrammingClass.Core.dll
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\bin\Release\net7.0\PgrogrammingClass.Core.pdb
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.csproj.AssemblyReference.cache
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.AssemblyInfoInputs.cache
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.AssemblyInfo.cs
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.csproj.CoreCompileInputs.cache
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.csproj.CopyComplete
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.dll
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\refint\PgrogrammingClass.Data.dll
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\PgrogrammingClass.Data.pdb
+E:\ProgrammingCalssProject\ProgrammingCalss.Data\obj\Release\net7.0\ref\PgrogrammingClass.Data.dll
