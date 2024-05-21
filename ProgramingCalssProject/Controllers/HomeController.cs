@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Data.DataContext;
+using PgrogrammingClass.Sevices.EntitesServices;
 using ProgramingCalssProject.Models;
 using System.Diagnostics;
 
@@ -9,9 +10,11 @@ namespace ProgramingCalssProject.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IAboutUsService _aboutUsService;
+        public HomeController(ILogger<HomeController> logger, IAboutUsService aboutUsService)
         {
             _logger = logger;
+            _aboutUsService = aboutUsService;
         }
 
         public IActionResult Index()
@@ -21,12 +24,12 @@ namespace ProgramingCalssProject.Controllers
 
         public IActionResult AboutUs()
         {
-            return View();
+            return View(_aboutUsService.GetAll().Result.FirstOrDefault());
         }
 
         public IActionResult ContactUs()
         {
-            return View();
+            return View(_aboutUsService.GetAll().Result.FirstOrDefault());
         }
 
         public IActionResult Privacy()

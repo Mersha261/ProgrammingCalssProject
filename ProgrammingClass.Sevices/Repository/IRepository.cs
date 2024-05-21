@@ -11,7 +11,7 @@ namespace PgrogrammingClass.Sevices.Repository
     {
         Task<TEntity> GetById(int id);
 
-        Task<TEntity> GetById(Guid id);
+        Task<TEntity> GetById(string id);
 
         Task<IEnumerable<TEntity>> GetAll();
 

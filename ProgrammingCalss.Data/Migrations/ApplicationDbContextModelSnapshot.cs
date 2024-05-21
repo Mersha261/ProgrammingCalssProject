@@ -240,6 +240,10 @@ namespace PgrogrammingClass.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ContactUs")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
@@ -248,7 +252,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblAboutUs", (string)null);
+                    b.ToTable("TblAboutUs");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblBanner", b =>
@@ -282,7 +286,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblBanner", (string)null);
+                    b.ToTable("TblBanner");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblCategory", b =>
@@ -332,7 +336,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblCategory", (string)null);
+                    b.ToTable("TblCategory");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblCity", b =>
@@ -361,7 +365,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasIndex("ProvinceId");
 
-                    b.ToTable("TblCity", (string)null);
+                    b.ToTable("TblCity");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblContactUs", b =>
@@ -406,7 +410,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblContactUs", (string)null);
+                    b.ToTable("TblContactUs");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblPost", b =>
@@ -497,7 +501,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblPost", (string)null);
+                    b.ToTable("TblPost");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblProductComment", b =>
@@ -547,7 +551,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("TblProductComment", (string)null);
+                    b.ToTable("TblProductComment");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblProductImage", b =>
@@ -584,7 +588,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("TblProductImage", (string)null);
+                    b.ToTable("TblProductImage");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblProvince", b =>
@@ -608,7 +612,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblProvince", (string)null);
+                    b.ToTable("TblProvince");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblSetting", b =>
@@ -632,7 +636,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblSetting", (string)null);
+                    b.ToTable("TblSetting");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblSocialMedia", b =>
@@ -666,7 +670,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TblSocialMedia", (string)null);
+                    b.ToTable("TblSocialMedia");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.Tblproduct", b =>
@@ -745,7 +749,7 @@ namespace PgrogrammingClass.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Tblproduct", (string)null);
+                    b.ToTable("Tblproduct");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.ApplicationUser", b =>

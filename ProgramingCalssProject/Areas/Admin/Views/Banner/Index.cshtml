@@ -1,0 +1,91 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.TblBanner>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>مدیریت بنر سایت</h1>
+
+<div class="container bg-light m-2 w3-round-medium">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bg-info w3-round-medium p-2 m-2 text-center">
+                بارگزاری تصویر
+            </div>
+        </div>
+        <form asp-controller="Banner" asp-Action="Create" method="post" asp-area="Admin" enctype="multipart/form-data">
+            <div class="col-md-2">
+                <label class="m-2">تصویر</label>
+            </div>
+            <div class="col-md-10">
+                <input type="file" name="Pic" class="form-control m-2" required />
+            </div>
+            <div class="col-md-2">
+                <label class="m-2">عنوان تصویر</label>
+            </div>
+            <div class="col-md-10">
+                <input type="text" name="Title" class="form-control m-2" required />
+            </div>
+            <div class="col-md-2">
+                <label class="m-2">متن جایگذین</label>
+            </div>
+            <div class="col-md-10">
+                <input type="text" name="Alt" class="form-control m-2" required />
+            </div>
+            <div class="col-md-12">
+                <input type="submit" value="ثبت اطلاعات" class="btn btn-primary m-2" />
+            </div>
+        </form>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifyDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    <img class="img-thumbnail img-fluid" src="@item.Picture" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Alt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifyDate)
+                </td>
+                <td>
+                    <a asp-action="Delete" class="btn btn-danger btn-sm" onclick="return confirm('ایا اطمینان دارید!!!')" asp-route-id="@item.Id">
+                        <i class=" fa fa-trash w3-large"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

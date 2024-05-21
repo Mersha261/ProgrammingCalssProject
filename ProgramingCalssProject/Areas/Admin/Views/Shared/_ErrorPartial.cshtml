@@ -1,0 +1,50 @@
+﻿@* @if (ViewBag.E != null)
+{ *@
+    <div class="container">
+        <br />
+        <div class="progress w3-animate-top" id="veiwbagerror" style="height:auto">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated active w3-large position-relative" style="width:100%">
+                <a href="#" class="close w3-xxlarge" style="position:absolute;top:0px; left: 5px;opacity:.25" id="close1" onclick="$('#close1').fadeOut(50);$('#veiwbagerror').animate({ width: '0', height: '0' }, 'slow').fadeOut(0);">&times;</a>
+                @ViewBag.E
+            </div>
+        </div>
+    </div>
+@* } *@
+
+@* @if (TempData["W"] != null)
+{ *@
+    <div class="container">
+        <br />
+        <div class="progress w3-animate-top" id="tempeerror" style="height:auto">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated active w3-large position-relative" style="width:100%">
+                <a href="#" class="close w3-xxlarge" style="position:absolute;top:0px; left: 5px;opacity:.25" id="close2" onclick="$('#close2').fadeOut(50);$('#tempeerror').animate({ width: '0', height: '0' }, 'slow').fadeOut(0);">&times;</a>
+                @TempData["W"]
+            </div>
+        </div>
+    </div>
+@* }
+
+@if (TempData["S"] != null)
+{ *@
+    <div class="container">
+        <br />
+        <div class="progress w3-animate-top" id="tempsuccess" style="height:auto">
+            <div class="progress-bar  progress-bar-striped progress-bar-animated active w3-large position-relative" style="width:100%">
+                <a href="#" class="close w3-xxlarge" style="position:absolute;top:0px; left: 5px;opacity:.25" id="close3" onclick="$('#close3').fadeOut(50);$('#tempsuccess').animate({ width: '0', height: '0' }, 'slow').fadeOut(0);">&times;</a>
+                @TempData["S"]
+            </div>
+        </div>
+    </div>
+@* } *@
+
+@*<div class="alert alert-success" id="alerts" style="font-weight: bold;display: none;opacity: 0.8;position: fixed; top: 70px;right: 15px;z-index: 1001;border: solid 1px lightcoral;box-shadow: 3px 3px 4px 0px #98bd9d;">
+</div>
+<div class="alert alert-danger" id="alertd" style="font-weight: bold;display: none;opacity: 0.8;position: fixed; top: 70px;right: 15px;z-index: 1001;border: solid 1px lightcoral;box-shadow: 3px 3px 4px 0px lightgrey;">
+</div>*@
+<div id="loading" style="display:none; background-color:rgba(22, 134, 36, 0.25);z-index:1001;width:100%;height:100%;position:fixed;top:0px;bottom:0px;right:0px;left:0px">
+    <div style="font-size:x-large; margin: 0;position: absolute;top: 50%;right:25%;-ms-transform: translateY(-50%);transform: translateY(-50%);">
+        در حال بارگزاری اطلاعات
+        <div class="spinner-border text-secondary">
+        </div>
+    </div>
+</div>

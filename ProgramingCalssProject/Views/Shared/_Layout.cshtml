@@ -135,8 +135,8 @@
 
     <div class="container ">
         <main role="main">
+            <partial name="_ErrorPartial" />
             @RenderBody()
-            <button class="btn btn-primary" onclick="Test()">اجرا فانکشن</button>
             <div class="bg-danger" style="display:none;" id="textContainer">
                 این یک متن تست است
             </div>
@@ -243,7 +243,6 @@
 
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-
     <script>
         $(".lazy").slick({
             infinite: true,
@@ -369,14 +368,6 @@
                 }
             ]
         });
-    </script>
-    <script>
-        function Test() {
-            $("#textContainer").removeClass("bg-danger");
-            $("#textContainer").addClass("bg-success");
-            $("#textContainer").text("عملیات شما موفقیت آمیز بود!!!");
-            $("#textContainer").fadeIn(300).fadeOut(8000);
-        }
     </script>
 </body>
 </html>

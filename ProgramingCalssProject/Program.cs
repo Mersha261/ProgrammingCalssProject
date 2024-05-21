@@ -38,10 +38,24 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 
 #region Myervices
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 builder.Services.AddScoped<IAboutUsService, AboutUsService>();
+builder.Services.AddScoped<IApplicationUserService, ApplicationUserService>();
 builder.Services.AddScoped<IBannerService, BannerService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICityService, CityService>();
+
+builder.Services.AddScoped<IContactUsService, ContactUsService>();
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IProductCommentService,ProductCommentService >();
+builder.Services.AddScoped<IProductImageService,ProductImageService >();
+builder.Services.AddScoped<IProductService,ProductService >();
+builder.Services.AddScoped<IProvinceService,ProvinceService >();
+builder.Services.AddScoped<ISettingService,SettingService >();
+builder.Services.AddScoped<ISocialmediaService,SocialmediaService >();
+
 #endregion
 
 

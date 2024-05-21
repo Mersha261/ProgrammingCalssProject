@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProgrammingClassFirst.styles.css" asp-append-version="true" />
     <link href="~/slickslider/slick/slick.css" rel="stylesheet" />
-    <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />   
+    <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />
+    <script src="~/ckeditor/ckeditor.js"></script>
 </head>
 <body>
 
@@ -24,7 +25,6 @@
         <div style="position:absolute;left:15px;top:15px;cursor:pointer" onclick="w3_close()">
         <i class="fa fa-close w3-text-white w3-xlarge"></i>
     </div>
-    <a class="btnav btn-primary" asp-action="index" asp-controller="Admin" asp-area="Admin" >test</a>
         <div class="text-white p-2 w3-hover-teal">
             <i class="fa fa-dashboard fontsize-30"></i> <a  asp-action="" class="text-white mr-2">داشبورد</a>
         </div>
@@ -42,7 +42,7 @@
             <i class="fa fa-phone-square fontsize-30"></i> <a  asp-action="" class="text-white mr-2">تماس با ما</a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
-            <i class="fa fa-image fontsize-30"></i> <a  asp-action="" class="text-white mr-2">بنر سایت</a>
+            <i class="fa fa-image fontsize-30"></i> <a asp-area="Admin"  asp-action="Index" asp-controller="Banner" class="text-white mr-2">بنر سایت</a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
             <i class="fa  fa-dedent fontsize-30"></i> <a  asp-action="" class="text-white mr-2">شهر ها</a>
@@ -80,6 +80,7 @@
     </div>
     <div class="container ">
         <main role="main">
+            <partial name="_ErrorPartial"/>
             @RenderBody()
         </main>
     </div>

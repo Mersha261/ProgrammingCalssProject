@@ -44,7 +44,7 @@ namespace PgrogrammingClass.Sevices.Repository
             return await _context.Set<TEntity>().FindAsync(id);
         }
 
-        public async Task<TEntity> GetById(Guid id)
+        public async Task<TEntity> GetById(string id)
         {
             return await _context.Set<TEntity>().FindAsync(id);
         }
