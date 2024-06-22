@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj": {}
+    "D:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj": {}
   },
   "projects": {
-    "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj": {
+    "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj",
+        "projectUniqueName": "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj",
         "projectName": "PgrogrammingClass.Core",
-        "projectPath": "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj",
+        "projectPath": "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj",
         "packagesPath": "C:\\Users\\Mehrshad\\.nuget\\packages\\",
-        "outputPath": "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\obj\\",
+        "outputPath": "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Mehrshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,22 +76,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj": {
+    "D:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj",
+        "projectUniqueName": "D:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj",
         "projectName": "PgrogrammingClass.Data",
-        "projectPath": "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj",
+        "projectPath": "D:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\PgrogrammingClass.Data.csproj",
         "packagesPath": "C:\\Users\\Mehrshad\\.nuget\\packages\\",
-        "outputPath": "E:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\obj\\",
+        "outputPath": "D:\\ProgrammingCalssProject\\ProgrammingCalss.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Mehrshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -105,8 +104,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj": {
-                "projectPath": "E:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj"
+              "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj": {
+                "projectPath": "D:\\ProgrammingCalssProject\\PgrogrammingClass.Core\\PgrogrammingClass.Core.csproj"
               }
             }
           }
@@ -115,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -150,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

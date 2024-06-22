@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Data.DataContext;
 using PgrogrammingClass.Sevices.EntitesServices;
+using ProgramingCalssProject.Models.Utillity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,7 +56,7 @@ builder.Services.AddScoped<IProductService,ProductService >();
 builder.Services.AddScoped<IProvinceService,ProvinceService >();
 builder.Services.AddScoped<ISettingService,SettingService >();
 builder.Services.AddScoped<ISocialmediaService,SocialmediaService >();
-
+builder.Services.AddScoped<IpersianDateTime, PersianDateTime>();
 #endregion
 
 
@@ -71,6 +72,7 @@ else
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

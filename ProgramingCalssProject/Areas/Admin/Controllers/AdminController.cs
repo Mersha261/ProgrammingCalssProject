@@ -38,6 +38,10 @@ namespace ProgramingCalssProject.Areas.Admin.Controllers
             {
                 tblaboutUs.AboutUs = model.AboutUs;
                 tblaboutUs.ContactUs = model.ContactUs;
+                tblaboutUs.AboutUsFooter = model.AboutUsFooter;
+                tblaboutUs.Email = model.Email;
+                tblaboutUs.PhoneNumbers = model.PhoneNumbers;
+                tblaboutUs.Address = model.Address;
                 tblaboutUs.ModifyDate = DateTime.Now;
                 _aboutUsService.Update(tblaboutUs);
                 TempData["S"] = ErrMsg.Success;
