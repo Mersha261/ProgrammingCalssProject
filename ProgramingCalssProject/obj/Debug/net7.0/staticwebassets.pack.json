@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ProgramingCalssProject.bundle.scp.css"
     },
     {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\Err.jpg",
+      "PackagePath": "staticwebassets\\Images\\Err.jpg"
+    },
+    {
       "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\logo.png",
       "PackagePath": "staticwebassets\\Images\\logo.png"
     },

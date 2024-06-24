@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KYuHy9RlVokJV/tHFN5Z64nK3wFc+mX7ydhPyzY9Im4=",
+  "Hash": "+udyzHUX49HmtfQzMRWXUha/c3ujjjASDJCAy44UxnA=",
   "Source": "ProgramingCalssProject",
   "BasePath": "_content/ProgramingCalssProject",
   "Mode": "Default",
@@ -7881,6 +7881,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\Err.jpg",
+      "SourceId": "ProgramingCalssProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\",
+      "BasePath": "_content/ProgramingCalssProject",
+      "RelativePath": "Images/Err.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Err.jpg"
     },
     {
       "Identity": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\logo.png",

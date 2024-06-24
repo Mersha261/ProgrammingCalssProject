@@ -1,0 +1,89 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.TblCategory>
+@inject IpersianDateTime dt
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<a class="btn btn-primary m-2" asp-controller="Category" asp-action="Create">درج مورد جدید <i class="fa fa-plus"></i></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MetaKeywords)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MetaDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MetaTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentCategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsIncludeInTopMenu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifyDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetaKeywords)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetaDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetaTitle)
+                </td>
+                <td>
+                    @Model.Where(a => a.Id == item.ParentCategoryId).SingleOrDefault().Name
+
+                </td>
+                <td>
+                    @if (item.IsIncludeInTopMenu)
+                    {
+                        <span class="w3-text-green"><i class="fa fa-check"></i></span>
+                    }
+                    else
+                    {
+                        <span class="w3-text-red"><i class="fa fa-close"></i></span>
+
+                    }
+
+                    </td>
+                <td>
+                    @dt.GetPersinaDate(item.CreateDate)
+                </td>
+                <td>
+                    @dt.GetPersinaDate(item.ModifyDate)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('آیا از حذف این مورد اطمینان دارید؟')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
