@@ -30,7 +30,8 @@ namespace PgrogrammingClass.Data.DataContext
         public DbSet<TblProductImage> TblProductImage { get; set; }
         public DbSet<TblProvince> TblProvince { get; set; }
         public DbSet<TblSetting> TblSetting { get; set; } 
-        public DbSet<TblSocialMedia> TblSocialMedia { get; set; } 
+        public DbSet<TblSocialMedia> TblSocialMedia { get; set; }
+        public DbSet<TblUserAddress> TblUserAddress { get; set; }
 
     }
 }

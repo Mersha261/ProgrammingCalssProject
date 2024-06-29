@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgramingCalssProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de01659dc32a6005e27c966bdf4883aaeef3684d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2169b9becc32dd0cb6e76baecee13c8fac986873")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgramingCalssProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgramingCalssProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

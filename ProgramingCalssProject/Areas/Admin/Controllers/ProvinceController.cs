@@ -158,7 +158,7 @@ namespace ProgramingCalssProject.Areas.Admin.Controllers
         {
 
             var tblProvince = await _provinceService.GetById(id);
-            if (tblProvince != null)
+            if (tblProvince == null)
             {
                 TempData["W"] = ErrMsg.NotFound;
                 return RedirectToAction("Error", "Home");

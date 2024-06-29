@@ -21,9 +21,11 @@ namespace PgrogrammingClass.Core.Domain
         [Display(Name = "استان")]
         public int ProvinceId { get; set; }
 
-
+        [Display(Name = "استان")]
         [ForeignKey(nameof(ProvinceId))]
         public TblProvince TblProvince { get; set; }
+
+        public IEnumerable<TblUserAddress> TblUserAddresses { get; set; }
 
     }
 }

@@ -15,7 +15,7 @@
     <script src="~/ckeditor/ckeditor.js"></script>
 </head>
 <body>
-
+    @inject IContactUsService contactUs
     <div id="mySidebar" class="w3-animate-right" style="display:none;background-color: #1a92bc;
     position: absolute;
     top: 45px;
@@ -43,13 +43,20 @@
             <a asp-area="Admin" asp-controller="Admin" asp-action="AboutUs" class="text-white mr-2">درباره ما</a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
-            <i class="fa fa-phone-square fontsize-30"></i> <a  asp-action="" class="text-white mr-2">تماس با ما</a>
+            <i class="fa fa-phone-square fontsize-30"></i>
+            <a asp-action="Index" asp-area="Admin" asp-controller="ContactUsForm" class="text-white mr-2">
+                <span class="d-inline-block">تماس با ما</span>
+                <span class="d-inline-block">    <h6><span class="badge badge-danger">@contactUs.Find(a => !a.IsRead).Count()</span></h6></span>
+                
+
+            
+            </a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
             <i class="fa fa-image fontsize-30"></i> <a asp-area="Admin"  asp-action="Index" asp-controller="Banner" class="text-white mr-2">بنر سایت</a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
-            <i class="fa  fa-dedent fontsize-30"></i> <a  asp-action="" class="text-white mr-2">شهر ها</a>
+            <i class="fa  fa-dedent fontsize-30"></i> <a asp-action="Index" asp-area="Admin" asp-controller="City" class="text-white mr-2">شهر ها</a>
         </div>
         <div class="text-white p-2 w3-hover-teal">
             <i class="fa fa-empire fontsize-30"></i> <a  asp-action="Index" asp-controller="Province" asp-area="Admin" class="text-white mr-2">استان ها</a>

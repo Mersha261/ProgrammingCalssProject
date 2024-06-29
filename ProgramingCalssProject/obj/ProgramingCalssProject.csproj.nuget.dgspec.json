@@ -131,6 +131,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "DNTCaptcha.Core": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.18, )"

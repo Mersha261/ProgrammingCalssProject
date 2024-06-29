@@ -1,3 +1,4 @@
+using DNTCaptcha.Core;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PgrogrammingClass.Core.Domain;
@@ -50,17 +51,32 @@ builder.Services.AddScoped<ICityService, CityService>();
 
 builder.Services.AddScoped<IContactUsService, ContactUsService>();
 builder.Services.AddScoped<IPostService, PostService>();
-builder.Services.AddScoped<IProductCommentService,ProductCommentService >();
-builder.Services.AddScoped<IProductImageService,ProductImageService >();
-builder.Services.AddScoped<IProductService,ProductService >();
-builder.Services.AddScoped<IProvinceService,ProvinceService >();
-builder.Services.AddScoped<ISettingService,SettingService >();
-builder.Services.AddScoped<ISocialmediaService,SocialmediaService >();
+builder.Services.AddScoped<IProductCommentService, ProductCommentService>();
+builder.Services.AddScoped<IProductImageService, ProductImageService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProvinceService, ProvinceService>();
+builder.Services.AddScoped<ISettingService, SettingService>();
+builder.Services.AddScoped<ISocialmediaService, SocialmediaService>();
 builder.Services.AddScoped<IpersianDateTime, PersianDateTime>();
 #endregion
 
-
-
+builder.Services.AddDNTCaptcha(
+    options =>
+    {
+        options.UseCookieStorageProvider()
+.AbsoluteExpiration(minutes: 7)
+.ShowThousandsSeparators(false)
+.WithEncryptionKey("AAkhfldp==_lk!@#%^ydd74rr=")
+.InputNames(// This is optional. Change it if you don't like the default names.
+    new DNTCaptchaComponent
+    {
+        CaptchaHiddenInputName = "DNT_CaptchaText",
+        CaptchaHiddenTokenName = "DNT_CaptchaToken",
+        CaptchaInputName = "DNT_CaptchaInputText"
+    }).Identifier("dnt_Captcha");
+    });
+builder.Services.AddScoped<IDNTCaptchaValidatorService, DNTCaptchaValidatorService>();
+builder.Services.AddScoped<DNTCaptchaOptions,DNTCaptchaOptions>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -80,7 +96,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>
-{  
+{
 
     endpoints.MapControllerRoute(
           name: "Admin",
