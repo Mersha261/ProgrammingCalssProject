@@ -1,0 +1,245 @@
+﻿@model PgrogrammingClass.Core.Domain.TblShoppingcart
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@inject IHttpContextAccessor httpContextAccessor
+@inject IGetData getData
+@inject UserManager<ApplicationUser> UserManager
+@{
+    var currentuser = await UserManager.GetUserAsync(httpContextAccessor.HttpContext.User);
+}
+<div class="bg-light w3-round-medium p-2 mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bg-white w3-round-medium text-center p-2">
+                    سبد خرید
+                </div>
+            </div>
+            <div class="m-2 p-1 ">
+                <span class="w3-text-gray">
+                    @Html.DisplayNameFor(model => model.TotalPrice) :
+                </span>
+                <span>
+                    @Html.DisplayFor(model => model.TotalPrice)
+                </span>
+            </div>
+            <div class="m-2 p-1 ">
+                <span class="w3-text-gray">
+                    @Html.DisplayNameFor(model => model.OffCopon) :
+                </span>
+                <span>
+                    @Html.DisplayFor(model => model.OffCopon)
+                </span>
+            </div>
+            <div class="m-2 p-1 ">
+                <span class="w3-text-gray">
+                    @Html.DisplayNameFor(model => model.PriceWithoutOff) :
+                </span>
+                <span>
+                    @Html.DisplayFor(model => model.PriceWithoutOff)
+                </span>
+            </div>
+            <div class="m-2 p-1 ">
+                <span class="w3-text-gray">
+                    @Html.DisplayNameFor(model => model.OffPercent) :
+                </span>
+                <span>
+                    @Html.DisplayFor(model => model.OffPercent)
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr />
+                <div class="bg-white w3-round-medium text-center p-2">
+                    محصولات
+                </div>
+            </div>
+            @foreach (var item in Model.TblShoppingCartDetails)
+            {
+                int totalprice = item.Price * item.Count;
+                <div class="col-md-12">
+                    <div class="m-2 bg-white">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="@getData.GetImageByProductId(item.ProductId)" class="img-thumbnail img-fluid m-1" alt="@item.ProductName" title="@item.ProductName" width="150" />
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="m-2">
+                                        <span class="w3-text-gray">
+                                            نام محصول : @item.ProductName
+                                        </span>
+                                    </div>
+                                    <div class="m-2">
+                                        <div class="w3-text-gray d-inline-block">
+                                            تعداد :@item.Count
+                                        </div>
+                                        <div class="d-inline-block">
+                                            <form method="post" asp-action="AddCount" asp-controller="Order">
+                                                <div class="form-group">
+                                                    <div class="input-group mb-3">
+                                                        <input type="number" required name="count" class="form-control" />
+                                                        <div class="input-group-append">
+                                                            <input type="submit" value="تایید" class=" btn btn-primary" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <input type="hidden" value="@item.Id" name="id" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="m-2">
+                                        <span class="w3-text-gray">
+                                            قیمت :@item.Price
+                                        </span>
+                                    </div>
+                                    <div class="m-2">
+                                        <span class="w3-text-gray">
+                                            قیمت کل :@totalprice
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row">
+            <div clas="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="bg-white w3-round-medium p-2">
+                            <div class="bg-light w3-round-medium text-center p-2">
+                                افزودن کد تخفیف
+                            </div>
+                            <hr />
+                            <form method="post" asp-action="AddCopon" asp-controller="Order">
+                                @if (Model.IsCoponSet)
+                                {
+                                    <input type="text" disabled required class="form-control mt-2" placeholder="کد تخفیف را وارد نمایید" />
+                                    <input type="submit" value="تایید" class=" btn btn-primary btn-sm btn-block mt-2" disabled />
+                                }
+                                else
+                                {
+                                    <input type="text" required name="copon" class="form-control mt-2" placeholder="کد تخفیف را وارد نمایید" />
+                                    <input type="submit" value="تایید" class=" btn btn-primary btn-sm btn-block mt-2" />
+                                }
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="bg-white w3-round-medium p-2 mt-1">
+                            <div class="bg-light w3-round-medium text-center p-2">
+                                انتخاب آدرس
+                            </div>
+                            <hr />
+
+                            @if (currentuser == null)
+                            {
+                                <div class="text-info">جهت ادامه خرید و افزودن آدرس لطفا از بخش ورود، به سامانه وارد شوید</div>
+                            }
+                            else
+                            {
+                                if (Model.AddressId > 0)
+                                {
+                                    var address = getData.GetAddreeeById(((int)Model.AddressId));
+                                    <div>
+                                        استان: @address.TblCity.TblProvince.ProvinceName ,
+                                        شهر: @address.TblCity.CityName,
+                                        شماره تماس : @address.PhoneNumber
+                                        کد پستی: @address.PostalCode,
+                                        آدرس: @address.Address
+                                    </div>
+                                }
+                                else
+                                {
+                                    var address = getData.getUserAddressByUserId(currentuser.Id);
+                                    if (address.Count == 0)
+                                    {
+                                        <div class="text-info">لطفا در پنل کاربری خود حداقل یک آدرس را ثبت نمایید</div>
+                                    }
+                                    else
+                                    {
+                                        <form asp-action="AddAddress" asp-controller="Order" method="post">
+                                            <select class="form-control " name="addressid" required>
+                                                <option value="">لطفا آدرس را انتخاب نمایید</option>
+                                                @foreach (var item in address)
+                                                {
+                                                    <option value="@item.Id">
+                                                        استان: @item.TblCity.TblProvince.ProvinceName ,
+                                                        شهر:@item.TblCity.CityName,
+                                                        شماره تماس : @item.PhoneNumber
+                                                        کد پستی: @item.PostalCode,
+                                                        آدرس:@item.Address
+                                                    </option>
+                                                }
+                                            </select>
+
+                                            <input type="submit" value="ثبت آدرس" class=" btn btn-primary btn-sm btn-block mt-2" />
+
+                                        </form>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="bg-white w3-round-medium p-2">
+                            <div class="bg-light w3-round-medium text-center p-2">
+                                انتخاب شیوه ارسال
+                            </div>
+                            <hr />
+                            @if (Model.ShippingWayName != "")
+                            {
+                                <div>
+                                    شیوه ارسال: @Model.ShippingWayName
+                                    هزینه ارسال: @Model.ShippingPrice  تومان
+                                </div>
+                            }
+                            else
+                            {
+                                <form asp-action="AddShippingWay" asp-controller="Order" method="post">
+                                    <select class="form-control " name="shippingWay" required>
+                                        <option value="">لطفا شیوه ارسال را انتخاب نمایید</option>
+                                        @foreach (var item in getData.GetShippingWay(Model.TblUserAddress.TblCity.ProvinceId, Model.TblShoppingCartDetails.Sum(a => a.Count * (int)a.Weight)))
+                                        {
+                                            <option value="@item.ShippingPrice , @item.ShippingName">
+                                                @item.ShippingName : @item.ShippingPrice تومان
+                                            </option>
+                                        }
+                                    </select>
+                                    <input type="submit" value="ثبت شیوه ارسال" class=" btn btn-primary btn-sm btn-block mt-2" />
+                                </form>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="bg-white w3-round-medium p-2">
+                            <div class="bg-light w3-round-medium text-center p-2">
+                                پرداخت
+                            </div>
+                            <hr />
+                            @if (Model.AddressId != 0 && Model.AddressId != null)
+                            {
+                                <form method="post" asp-action="Pay" asp-controller="Order">
+                                    <input type="hidden" name="shoppingcartId" value="@Model.Id" />
+                                    <input type="submit" value="پرداخت" class=" btn btn-primary btn-sm btn-block mt-2" />
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

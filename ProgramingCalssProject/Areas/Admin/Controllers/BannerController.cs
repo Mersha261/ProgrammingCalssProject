@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Sevices.EntitesServices;
 using ProgramingCalssProject.Models;
@@ -9,6 +10,7 @@ using static ProgramingCalssProject.Models.Utillity.ImageProccess;
 namespace ProgramingCalssProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class BannerController : Controller
     {
         private readonly IBannerService _bannerService;

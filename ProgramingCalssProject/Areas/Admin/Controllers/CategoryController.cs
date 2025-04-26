@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Sevices.EntitesServices;
 using ProgramingCalssProject.Models;
@@ -6,6 +7,7 @@ using ProgramingCalssProject.Models;
 namespace ProgramingCalssProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -31,20 +33,19 @@ namespace ProgramingCalssProject.Areas.Admin.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Create(TblCategory model)
-        {
-            ViewBag.ParrentCategory = _categoryService.Find(a => a.IsIncludeInTopMenu).ToList();
+        {          
 
             ModelState.Remove(nameof(model.Tblproducts));
             if (!ModelState.IsValid)
             {
                 TempData["W"] = ErrMsg.ComplateInfo;
-                return View();
+                return RedirectToAction(nameof(Create));
             }
             model.CreateDate = DateTime.Now;
             model.ModifyDate = DateTime.Now;
             await _categoryService.Add(model);
             TempData["S"] = ErrMsg.Success;
-            return View();
+            return RedirectToAction(nameof(Create));
         }
 
         public async Task<IActionResult> Edit(int id)

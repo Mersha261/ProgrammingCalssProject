@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.TblShoppingcart>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+        <partial name="_AccountPartial" />
+    <div class="col-md-9">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsSentToUser)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TotalPrice)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.TransactionNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustomOrderNumber)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsSentToUser)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPrice)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TransactionNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomOrderNumber)
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

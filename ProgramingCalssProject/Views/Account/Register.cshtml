@@ -1,0 +1,107 @@
+﻿@model ProgramingCalssProject.Models.ViewModel.RegisterViewModel
+@{
+    ViewData["Title"] = "ثبت نام";
+    string[] monthList = new string[] { "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند", };
+}
+<div class="col-md-12 bg-light">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center green-theme mt-2">
+                <strong class="w3-large">ثبت نام</strong>
+                <div class="green-line mt-2 mb-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3 padding-0">
+            <div class="w3-round-medium mt-2 bg-white p-2 m-1">
+                <form asp-route-returnUrl="@ViewData["ReturnUrl"]" asp-action="Register" asp-controller="Account" method="post">
+                    <div class="form-group">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <div>
+                            <input type="radio" asp-for="Gender" value="Female" /><span class="ml-1 w3-small">بانو</span>
+                            <input type="radio" asp-for="Gender" value="Male" /> <span class="ml-1 w3-small">آقا</span>
+                            <input type="radio" asp-for="Gender" value="Other" /> <span class="ml-1 w3-small">دیگر</span>
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Family" class="control-label"></label>
+                        <input asp-for="Family" class="form-control" />
+                        <span asp-validation-for="Family" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber" class="control-label"></label>
+                        <input asp-for="PhoneNumber" class="form-control" data-toggle="tooltip" data-placement="top" title="شماره موبایل را به صورت انگلیسی وارد نمایید مثال 09123456789 ، بعد از ثبت نام جهت تایید شماره موبایل شما پیامک تایید  برای شما ارسال میشود" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PasswordHash" class="control-label"></label>
+                        <input asp-for="PasswordHash" class="form-control" />
+                        <span asp-validation-for="PasswordHash" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmedPasswordHash" class="control-label"></label>
+                        <input asp-for="ConfirmedPasswordHash" class="form-control" />
+                        <span asp-validation-for="ConfirmedPasswordHash" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">تاریخ تولد</label>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 padding-0">
+                                    <select asp-for="Day" class="form-control">
+                                        <option value="">روز</option>
+                                        @for (int i = 1; i <= 31; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="Day" class="text-danger w3-small"></span>
+                                </div>
+                                <div class="col-4 padding-0">
+                                    <select asp-for="Month" class="form-control">
+                                        <option value="">ماه</option>
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@monthList[i - 1]</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="Month" class="text-danger w3-small"></span>
+                                </div>
+                                <div class="col-4 padding-0">
+                                    <select asp-for="Year" class="form-control">
+                                        <option value="">سال</option>
+                                        @for (int i = 1320; i <= 1400; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                    <span asp-validation-for="Year" class="text-danger w3-small"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" data-toggle="tooltip" title="ایمیل را بدون www  وارد نمایید" />
+                        <span asp-validation-for="Email" class="text-danger w3-small"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <hr />
+                        <input id="submitbtn" type="submit" value="ثبت نام" class="btn btn-primary btn-sm" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

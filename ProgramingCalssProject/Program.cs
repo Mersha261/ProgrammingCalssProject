@@ -1,9 +1,11 @@
 using DNTCaptcha.Core;
+using MellatPayment1;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PgrogrammingClass.Core.Domain;
 using PgrogrammingClass.Data.DataContext;
 using PgrogrammingClass.Sevices.EntitesServices;
+using ProgramingCalssProject.Models.Getdata;
 using ProgramingCalssProject.Models.Utillity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,8 +35,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 {
     // Cookie settings
     options.Cookie.HttpOnly = true;
-    options.LoginPath = "/Login";
-    options.AccessDeniedPath = "/AccessDenied";
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
     options.SlidingExpiration = true;
 });
 
@@ -58,6 +60,7 @@ builder.Services.AddScoped<IProvinceService, ProvinceService>();
 builder.Services.AddScoped<ISettingService, SettingService>();
 builder.Services.AddScoped<ISocialmediaService, SocialmediaService>();
 builder.Services.AddScoped<IpersianDateTime, PersianDateTime>();
+builder.Services.AddScoped<IGetData, GetData>();
 #endregion
 
 builder.Services.AddDNTCaptcha(

@@ -1769,7 +1769,10 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "runtime": {
-          "PgrogrammingClass.Core.dll": {}
+          "PgrogrammingClass.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PgrogrammingClass.Data/1.0.0": {
@@ -1780,7 +1783,10 @@
           "PgrogrammingClass.Core": "1.0.0"
         },
         "runtime": {
-          "PgrogrammingClass.Data.dll": {}
+          "PgrogrammingClass.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="~/ProgrammingClassFirst.styles.css" asp-append-version="true" />
     <link href="~/slickslider/slick/slick.css" rel="stylesheet" />
     <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />
+    <meta name="keywords" title="@ViewBag.KeyWord" />
+    <meta name="description" title="@ViewBag.Description" />
 </head>
 <body id="body">
+    @inject IGetData getData
     <header>
         <div class="container mt-3">
             <div class="row">
@@ -20,116 +23,82 @@
                     <img src="~/images/logo.png" width="38" />
                 </div>
                 <div class="col-md-4">
-                    <div class="input-group ">
-                        <div class="input-group-prepend">
-                            <button class="btn btn-primary bg-theme"><i class="fa fa-search"></i></button>
-                        </div>
-                        <input type="text" class="form-control" placeholder="جستجو">
-                    </div>
+                    <form method="get" asp-action="Product" asp-controller="Home">
+                        <div class="input-group ">
+                            <div class="input-group-prepend">
+                                <button type="submit" class="btn btn-primary bg-theme"><i class="fa fa-search"></i></button>
+                            </div>
+                            <input type="text" name="Title" class="form-control" placeholder="جستجو">
+                    </form>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-left position-relative">
-                        <a class="mx-1" href="MyAccount"><i class="fa fa-user"></i></a>
-                        <a class="mx-1" href="Login"><i class="fa fa-sign-in"></i></a>
-                        <a class="mx-1" href="Favorite"><i class="fa fa-heart"></i></a>
-                        <a class="mx-1 shoppingcart-icon" href="ShoppingCart"><i class="fa fa-shopping-cart"></i></a>
-                        <div class="shoppingcart-container text-right">
-                            <div class="shoppingcart-arrow"></div>
-                            <div class="text-center theme">سبد خرید</div>
-                            <hr />
-                            <div class="shoppingcart-item-container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="~/pic/wp2013.1 1024x768 (17).jpg" class="img-thumbnail img-fluid" />
-                                    </div>
-                                    <div class="col-8 text-right">
-                                        <div><strong class="theme">محصول شماره یک</strong></div>
-                                        <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : 1000 تومان</span></div>
-                                        <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : 2 عدد</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shoppingcart-item-container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="~/pic/wp2013.1 1024x768 (24).jpg" class="img-thumbnail img-fluid" />
-                                    </div>
-                                    <div class="col-8 text-right">
-                                        <div><strong class="theme">محصول شماره یک</strong></div>
-                                        <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : 1000 تومان</span></div>
-                                        <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : 2 عدد</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shoppingcart-item-container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="~/pic/wp2013.1 1024x768 (20).jpg" class="img-thumbnail img-fluid" />
-                                    </div>
-                                    <div class="col-8 text-right">
-                                        <div><strong class="theme">محصول شماره یک</strong></div>
-                                        <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : 1000 تومان</span></div>
-                                        <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : 2 عدد</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shoppingcart-item-container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="~/pic/WP2013.1 1024x768 (18).jpg" class="img-thumbnail img-fluid" />
-                                    </div>
-                                    <div class="col-8 text-right">
-                                        <div><strong class="theme">محصول شماره یک</strong></div>
-                                        <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : 1000 تومان</span></div>
-                                        <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : 2 عدد</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shoppingcart-item-container">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="~/pic/wp2013.1 1024x768 (19).jpg" class="img-thumbnail img-fluid" />
-                                    </div>
-                                    <div class="col-8 text-right">
-                                        <div><strong class="theme">محصول شماره یک</strong></div>
-                                        <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : 1000 تومان</span></div>
-                                        <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : 2 عدد</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr />
-                            <strong class="theme">مجموع قیمت : 50000 تومان</strong>
-                            <a class="btn btn-info btn-sm text-white mt-2 btn-block">برو به سبد خرید</a>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-left position-relative">
+                    <a class="mx-1" asp-action="Index" asp-controller="Account"><i class="fa fa-user"></i></a>
+                    <a class="mx-1" asp-action="LogIn" asp-controller="Account"><i class="fa fa-sign-in"></i></a>
+                    <a class="mx-1" asp-action="Register" asp-controller="Account"><i class="fa fa-user-plus"></i></a>
+                    <a class="mx-1" href="Favorite"><i class="fa fa-heart"></i></a>
+                    <a class="mx-1 shoppingcart-icon" asp-controller="Order" asp-action="Index"><i class="fa fa-shopping-cart"></i></a>
+                    <div class="shoppingcart-container text-right" id="shoppingCartContainer">
                     </div>
                 </div>
             </div>
-            <hr />
-            <nav class="navbar navbar-expand-md bg-light navbar-light">
-                <!-- Brand -->
-                <a class="navbar-brand  theme" href="#">اسم وبسایت</a>
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Home/Index">صفحه اصلی</a>
+        </div>
+        <hr />
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand  theme" href="#">اسم وبسایت</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Index">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product" asp-controller="Home">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/AboutUs">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/ContactUs">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand  theme" href="#">دسته ها</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleCategory">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleCategory">
+                <ul class="navbar-nav">
+                    @foreach (var item in getData.GetCategoryParrent())
+                    {
+                        string id = "navbarId" + item.Id.ToString();
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle cursor-pointer" id="navbarId" data-toggle="dropdown">
+                                @item.Name
+                            </a>
+                            <div class="dropdown-menu">
+                                @foreach (var item2 in getData.GetCategoryByParrentId(item.Id))
+                                {
+                                    <a class="dropdown-item" asp-action="Product" asp-controller="Home" asp-route-name="@item2.Name" asp-route-CatId="@item2.Id">@item2.Name</a>
+                                }
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">محصولات</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Home/AboutUs">درباره ما</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Home/ContactUs">تماس با ما</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                    }
+                </ul>
+            </div>
+        </nav>
         </div>
     </header>
 
@@ -207,16 +176,16 @@
                     <span>آدرس:</span><span><a href="https://www.google.com/maps/@@31.1638221,52.648044,17.92z?entry=ttu" target="_blank"> استان فارس، شهرستان آباده</a> </span>
                 </div>
                 < class="bg-white mt-2 p-2 border-1 rounded">
-                    <div class="text-center mt-3">
-                        <strong class="theme">ارسال نظر</strong>
-                    </div>
-                    <div class="theme-line"></div>
-                    <form asp-action="ContactUsForm" asp-controller="Home" method="post">
-                        <input type="text" name="NameAndFamily" placeholder="نام و نام خانوادگی" class="form-control m-1" required />
-                        <input type="tel" name="PhoneNumber" placeholder="شماره موبایل" class="form-control m-1" required />
-                        <input type="email" name="Email" placeholder="ایمیل" class="form-control m-1" required />
-                        <textarea name="Comment" class="form-control mt-2" placeholder="متن پیغام شما" required rows="4"></textarea>
-                         <div class="m-2">
+                <div class="text-center mt-3">
+                    <strong class="theme">ارسال نظر</strong>
+                </div>
+                <div class="theme-line"></div>
+                <form asp-action="ContactUsForm" asp-controller="Home" method="post">
+                    <input type="text" name="NameAndFamily" placeholder="نام و نام خانوادگی" class="form-control m-1" required />
+                    <input type="tel" name="PhoneNumber" placeholder="شماره موبایل" class="form-control m-1" required />
+                    <input type="email" name="Email" placeholder="ایمیل" class="form-control m-1" required />
+                    <textarea name="Comment" class="form-control mt-2" placeholder="متن پیغام شما" required rows="4"></textarea>
+                    <div class="m-2">
                         <dnt-captcha asp-captcha-generator-max="99999"
                                      asp-captcha-generator-min="11111"
                                      asp-captcha-generator-language="English"
@@ -230,13 +199,13 @@
                                      asp-validation-error-message="لطفا کد امنیتی را وارد نمایید"
                                      asp-validation-message-class="text-danger"
                                      asp-refresh-button-class="fa fa-rotate-left btn-sm" />
-                         </div>                       
-                        <input type="submit" class="btn btn-block btn-sm bg-theme text-white mt-2" value="ارسال نظر" />
-                    </form>
-                </div>
-
+                    </div>
+                    <input type="submit" class="btn btn-block btn-sm bg-theme text-white mt-2" value="ارسال نظر" />
+                </form>
             </div>
+
         </div>
+    </div>
     </div>
     <br />
     <div class="container-fluid">
@@ -257,12 +226,18 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/slickslider/slick/slick.min.js"></script>
+
     <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"></script>
     <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
 
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
     <script>
+        $(document).ready(function () {
+            UploaddataToShoppingCart();
+        });
+
         $(".lazy").slick({
             infinite: true,
             dots: false,
@@ -387,6 +362,32 @@
                 }
             ]
         });
+
+        function addToCart(id) {
+            $.ajax({
+                url: '/Order/AddToCart',
+                type: 'post',
+                datatype: 'application/json',
+                contentType: 'application/json',
+                data: JSON.stringify(id),
+                success: function (result) {
+                    UploaddataToShoppingCart();
+                    alert(result);
+                }
+
+            });
+        }
+        function UploaddataToShoppingCart() {
+            $.ajax({
+                url: '/Order/GetShoppingcartData',
+                type: 'post',
+                datatype: 'application/json',
+                contentType: 'application/json',
+                success: function (result) {
+                    $("#shoppingCartContainer").html(result);
+                }
+            })
+        }
     </script>
 </body>
 </html>

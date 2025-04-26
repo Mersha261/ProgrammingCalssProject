@@ -150,3 +150,7 @@ ProgrammingClass.Sevices/obj/PgrogrammingClass.Sevices.csproj.nuget.g.props
 ProgrammingClass.Sevices/obj/project.assets.json
 ProgrammingClass.Sevices/obj/project.nuget.cache
 /PgrogrammingClass.Core/bin
+/ProgrammingClass.Sevices/obj
+/PgrogrammingClass.Core/bin
+PgrogrammingClass.Core/bin/Debug/net7.0/PgrogrammingClass.Core.dll
+*.dll

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.TblShoppingCartDetails>
+@inject IGetData getData
+<div class="shoppingcart-arrow"></div>
+<div class="text-center theme">سبد خرید</div>
+<hr />
+@foreach (var item in Model)
+{
+    <div class="shoppingcart-item-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="@getData.GetImageByProductId(item.ProductId)" class="img-thumbnail img-fluid" alt="@item.ProductName" title="@item.ProductName" />
+            </div>
+            <div class="col-8 text-right">
+                <div><strong class="theme">@item.ProductName</strong></div>
+                <div><span class="theme">قیمت</span> <span class="shoppingcart-item-text"> : @item.Price تومان</span></div>
+                <div><span class="theme">تعداد</span> <span class="shoppingcart-item-text"> : @item.Count عدد</span></div>
+            </div>
+        </div>
+    </div>
+}
+
+<hr />
+<strong class="theme">مجموع قیمت : @Model.Sum(a=>a.Price) تومان</strong>
+<a class="btn btn-info btn-sm text-white mt-2 btn-block">برو به سبد خرید</a>

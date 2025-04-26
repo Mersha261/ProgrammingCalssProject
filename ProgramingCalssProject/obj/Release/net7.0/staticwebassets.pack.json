@@ -1,423 +1,1883 @@
 {
   "Files": [
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\ProgramingCalssProject.bundle.scp.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\ProgramingCalssProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProgramingCalssProject.bundle.scp.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\logo.png",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\Err.jpg",
+      "PackagePath": "staticwebassets\\Images\\Err.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Images\\logo.png",
       "PackagePath": "staticwebassets\\Images\\logo.png"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Steve-Jobs-Quotes-18.jpg",
-      "PackagePath": "staticwebassets\\Pic\\Steve-Jobs-Quotes-18.jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Banner\\0ba42b47-fe13-4eb2-8fe6-683eff283e1e.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Banner\\0ba42b47-fe13-4eb2-8fe6-683eff283e1e.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (17).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (17).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Banner\\28056b92-9673-4c0d-8393-106f6be4307b.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Banner\\28056b92-9673-4c0d-8393-106f6be4307b.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (18).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (18).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Banner\\40d1b493-2a46-466b-8a82-5e699862336b.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Banner\\40d1b493-2a46-466b-8a82-5e699862336b.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (19).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (19).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\17678486ae5d400095d5acd82c48f2f2.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\17678486ae5d400095d5acd82c48f2f2.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (20).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (20).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\3b76e7e2acef44cd8004253a6b31e79d.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\3b76e7e2acef44cd8004253a6b31e79d.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (21).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (21).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\4750d15da5c5491aa775467108edceae.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\4750d15da5c5491aa775467108edceae.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (22).JPG",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (22).JPG"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\5ea9adbc5ea442f395b16eb67e6e4566.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\5ea9adbc5ea442f395b16eb67e6e4566.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (23).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (23).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\6ebaad1d123d440d88cda61a1fa76e8f.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\6ebaad1d123d440d88cda61a1fa76e8f.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\WP2013.1 1024x768 (24).jpg",
-      "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (24).jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\74b12ed2253243ed8b76a3833159fb0d.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\74b12ed2253243ed8b76a3833159fb0d.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\baner3.jpg",
-      "PackagePath": "staticwebassets\\Pic\\baner3.jpg"
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\9147e7da4da24a009b3ffafa20c10eed.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\9147e7da4da24a009b3ffafa20c10eed.jpg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.eot",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\17678486ae5d400095d5acd82c48f2f2.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\17678486ae5d400095d5acd82c48f2f2.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\3b76e7e2acef44cd8004253a6b31e79d.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\3b76e7e2acef44cd8004253a6b31e79d.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\4750d15da5c5491aa775467108edceae.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\4750d15da5c5491aa775467108edceae.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\5ea9adbc5ea442f395b16eb67e6e4566.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\5ea9adbc5ea442f395b16eb67e6e4566.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\6ebaad1d123d440d88cda61a1fa76e8f.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\6ebaad1d123d440d88cda61a1fa76e8f.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\74b12ed2253243ed8b76a3833159fb0d.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\74b12ed2253243ed8b76a3833159fb0d.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\9147e7da4da24a009b3ffafa20c10eed.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\9147e7da4da24a009b3ffafa20c10eed.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\a420a80ec2124f7dad0fa94341d03264.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\a420a80ec2124f7dad0fa94341d03264.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\b9bc367e2a39432cb01ac8d0aa18bc3a.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\b9bc367e2a39432cb01ac8d0aa18bc3a.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\be607072d8a24fea95f92f454a7dbe52.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\be607072d8a24fea95f92f454a7dbe52.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\c7d7ea7d43aa41e4adfd49970b7268ba.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\c7d7ea7d43aa41e4adfd49970b7268ba.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\Thumb\\d38c8395e01c468c96e65cd142c58382.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\Thumb\\d38c8395e01c468c96e65cd142c58382.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\a420a80ec2124f7dad0fa94341d03264.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\a420a80ec2124f7dad0fa94341d03264.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\b9bc367e2a39432cb01ac8d0aa18bc3a.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\b9bc367e2a39432cb01ac8d0aa18bc3a.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\be607072d8a24fea95f92f454a7dbe52.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\be607072d8a24fea95f92f454a7dbe52.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\c7d7ea7d43aa41e4adfd49970b7268ba.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\c7d7ea7d43aa41e4adfd49970b7268ba.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\Pic\\Product\\d38c8395e01c468c96e65cd142c58382.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Product\\d38c8395e01c468c96e65cd142c58382.jpg"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor.asp",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.asp"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor.pack",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.pack"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor.php",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.php"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor_basic.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor_basic.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor_basic_source.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor_basic_source.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor_php4.php",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor_php4.php"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor_php5.php",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor_php5.php"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\ckeditor_source.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor_source.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\ckeditor\\config.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\images\\spacer.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\images\\spacer.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\_languages.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\_languages.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\ro.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\a11yhelp\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\a11yhelp\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\adobeair\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\adobeair\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\ajax\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\ajax\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\autogrow\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\autogrow\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\bbcode\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\bbcode\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\gu.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\devtools\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\devtools\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\div\\dialogs\\div.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\div\\dialogs\\div.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\docprops\\dialogs\\docprops.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\docprops\\dialogs\\docprops.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\docprops\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\docprops\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\find\\dialogs\\find.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\find\\dialogs\\find.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\flash\\dialogs\\flash.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\flash\\dialogs\\flash.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\flash\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\flash\\images\\placeholder.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\button.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\button.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\form.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\form.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\radio.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\radio.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\select.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\select.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\textarea.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\textarea.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\dialogs\\textfield.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\dialogs\\textfield.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\iframe\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\iframe\\images\\placeholder.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\iframedialog\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\iframedialog\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\link\\images\\anchor.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\images\\anchor.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\pastetext\\dialogs\\pastetext.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\pastetext\\dialogs\\pastetext.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\dialogs\\placeholder.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\dialogs\\placeholder.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\placeholder.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\placeholder.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\placeholder\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\placeholder\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\preview\\preview.html",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\preview\\preview.html"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_address.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_address.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_div.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_div.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h1.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h1.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h2.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h2.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h3.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h3.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h4.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h4.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h5.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h5.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_h6.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_h6.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_p.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_p.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\showblocks\\images\\block_pre.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\showblocks\\images\\block_pre.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\envelope.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\envelope.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\heart.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\heart.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\kiss.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\kiss.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\specialchar\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\specialchar\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\styles\\styles\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\styles\\styles\\default.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\stylesheetparser\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\stylesheetparser\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\tableresize\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\tableresize\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\templates\\dialogs\\templates.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\templates\\dialogs\\templates.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\templates\\templates\\default.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\templates\\templates\\default.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\dialogs\\uicolor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\dialogs\\uicolor.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\bg.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\cs.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\cy.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\da.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\de.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\el.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\eo.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\et.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\fa.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\fi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\he.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\hr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\it.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\mk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\nb.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\nl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\no.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\pl.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\tr.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\ug.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\uk.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\vi.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\uicolor.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\uicolor.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\assets\\hue_bg.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\assets\\hue_bg.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\assets\\hue_thumb.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\assets\\hue_thumb.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\assets\\picker_mask.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\assets\\picker_mask.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\assets\\picker_thumb.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\assets\\picker_thumb.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\assets\\yui.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\assets\\yui.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\uicolor\\yui\\yui.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\uicolor\\yui\\yui.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\wsc\\dialogs\\ciframe.html",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\wsc\\dialogs\\ciframe.html"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\wsc\\dialogs\\tmpFrameset.html",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\wsc\\dialogs\\tmpFrameset.html"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\wsc\\dialogs\\wsc.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\wsc\\dialogs\\wsc.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\wsc\\dialogs\\wsc.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\wsc\\dialogs\\wsc.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\plugins\\xml\\plugin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\xml\\plugin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\dialog.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\editor.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\icons.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\icons_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\icons_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\dialog_sides.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\dialog_sides.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\dialog_sides.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\dialog_sides.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\dialog_sides_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\dialog_sides_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\mini.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\mini.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\noimage.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\sprites.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\sprites.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\sprites_ie6.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\sprites_ie6.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\images\\toolbar_start.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\images\\toolbar_start.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\skin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\skin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\kama\\templates.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\kama\\templates.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\dialog.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\editor.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\icons.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\icons_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\icons_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\dialog_sides.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\dialog_sides.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\dialog_sides.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\dialog_sides.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\dialog_sides_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\dialog_sides_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\mini.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\mini.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\noimage.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\sprites.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\sprites.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\images\\sprites_ie6.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\images\\sprites_ie6.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\skin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\skin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\office2003\\templates.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\office2003\\templates.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\dialog.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\editor.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\icons.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\icons_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\icons_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\dialog_sides.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\dialog_sides.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\dialog_sides.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\dialog_sides.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\dialog_sides_rtl.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\dialog_sides_rtl.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\mini.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\mini.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\noimage.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\sprites.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\sprites.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\sprites_ie6.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\sprites_ie6.png"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\images\\toolbar_start.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\images\\toolbar_start.gif"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\skin.js",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\skin.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\skins\\v2\\templates.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\v2\\templates.css"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\ckeditor\\themes\\default\\theme.js",
+      "PackagePath": "staticwebassets\\ckeditor\\themes\\default\\theme.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.eot",
       "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.eot"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.ttf",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.ttf",
       "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.ttf"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff",
       "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.woff"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff2",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\SiteFont\\Iransans.woff2",
       "PackagePath": "staticwebassets\\css\\SiteFont\\Iransans.woff2"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\site.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\w3.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\css\\w3.css",
       "PackagePath": "staticwebassets\\css\\w3.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\favicon.ico",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\js\\site.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-rtl.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-rtl.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\popper.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\bootstrap\\dist\\js\\popper.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\popper.js.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\.gitignore",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\.gitignore",
       "PackagePath": "staticwebassets\\slickSlider\\.gitignore"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\CONTRIBUTING.markdown",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\CONTRIBUTING.markdown",
       "PackagePath": "staticwebassets\\slickSlider\\CONTRIBUTING.markdown"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\ISSUE_TEMPLATE.md",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\ISSUE_TEMPLATE.md",
       "PackagePath": "staticwebassets\\slickSlider\\ISSUE_TEMPLATE.md"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\LICENSE",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\LICENSE",
       "PackagePath": "staticwebassets\\slickSlider"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\Makefile",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\Makefile",
       "PackagePath": "staticwebassets\\slickSlider"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\README.markdown",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\README.markdown",
       "PackagePath": "staticwebassets\\slickSlider\\README.markdown"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\bower.json",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\bower.json",
       "PackagePath": "staticwebassets\\slickSlider\\bower.json"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\component.json",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\component.json",
       "PackagePath": "staticwebassets\\slickSlider\\component.json"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\index.html",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\index.html",
       "PackagePath": "staticwebassets\\slickSlider\\index.html"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\package.json",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\package.json",
       "PackagePath": "staticwebassets\\slickSlider\\package.json"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick.jquery.json",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick.jquery.json",
       "PackagePath": "staticwebassets\\slickSlider\\slick.jquery.json"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\ajax-loader.gif",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\ajax-loader.gif"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\config.rb",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\config.rb",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\config.rb"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.eot",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.eot",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.eot"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.svg",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.svg",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.svg"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.ttf",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.ttf",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.ttf"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.woff",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\fonts\\slick.woff",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.woff"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.css",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.less",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.less",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.less"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.scss",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick-theme.scss",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.scss"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.css",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.css",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.css"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.js",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.less",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.less",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.less"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.min.js",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.min.js",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.min.js"
     },
     {
-      "Id": "E:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.scss",
+      "Id": "D:\\ProgrammingCalssProject\\ProgramingCalssProject\\wwwroot\\slickSlider\\slick\\slick.scss",
       "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.scss"
     },
     {

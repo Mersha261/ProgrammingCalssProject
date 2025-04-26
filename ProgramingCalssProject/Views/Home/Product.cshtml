@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.Tblproduct>
+
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+
+        <div class="bg-light p-2 m-2 rounded theme shadow">
+            <a asp-action="ProductDetails" asp-route-id="@item.Id" asp-route-title="@item.Title">
+
+                <img src="@item.ProductImages.FirstOrDefault().Thumbnaile" title="@item.Title" alt="@item.Title" class="img-fluid img-thumbnail m-1" />
+                <div class="mt-2">
+                    <strong>@item.Title</strong>
+                </div>
+                <div class="mt-2 text-muted" style="height:75px;overflow:hidden">
+                    @item.ShortDescription
+                </div>
+            </a>
+            <button class="btn bg-theme text-white btn-block mt-3 btn-sm" onclick="addToCart(@item.Id)">افزودن به سبد خرید</button>
+        </div>
+        </div>
+    }
+</div>

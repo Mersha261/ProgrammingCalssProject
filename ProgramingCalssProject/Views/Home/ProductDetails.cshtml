@@ -1,0 +1,63 @@
+﻿@model PgrogrammingClass.Core.Domain.Tblproduct
+@{
+    ViewData["Title"] = Model.MetaTitle;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.KeyWord = Model.KeyWord;
+    ViewBag.Description = Model.MetaDescription;
+}
+@inject IpersianDateTime dt
+
+<h3 class="m-2">@Model.Title</h3>
+
+<div>
+    <hr />
+    <span>
+        @Html.DisplayNameFor(model => model.CreateDate) :
+    </span>
+    <span class="w3-small text-secondary">
+        @dt.GetPersinaDate(Model.CreateDate)
+    </span>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="my-2">
+                <h3>
+                    @Html.DisplayFor(model => model.Title)
+                </h3>
+            </div>
+            <div class="text-secondary">
+                قیمت : <span class="text-warning" style="text-decoration:line-through">
+                    @Html.DisplayFor(model => model.OldPrice)
+                </span>
+                <span class="text-success">
+                    @Html.DisplayFor(model => model.Price)
+                </span>
+                تومان
+                <div class="my-2">
+                    وزن : @Html.DisplayFor(model => model.Weight) گرم
+                </div>
+            </div>
+            <div class="w3-hover-text-gray mb-4">
+                @Html.DisplayFor(model => model.ShortDescription)
+            </div>
+            <button class="btn bg-theme text-white btn-block mt-3 btn-sm" style="position:absolute;bottom:15px" onclick="addToCart(@Model.Id)">افزودن به سبد خرید</button>
+        </div>
+        <div class="col-md-7">
+            <div class="direction-ltr">
+                <section class="lazy slider">
+                    @foreach (var item in Model.ProductImages)
+                    {
+                        <div>
+                            <img src="@item.Picture" title="@item.Title" alt="@item.Title" />
+                        </div>
+                    }
+                </section>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <hr />
+            @Html.Raw(Model.FullDescription)
+        </div>
+    </div>
+
+</div>
+

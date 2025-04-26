@@ -58,7 +58,8 @@ namespace PgrogrammingClass.Core.Domain
         public int Price { get; set; }
 
 
-
+        [Display(Name = "قیمت بدون تخفیف")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = ErrMsgCore.RequierdMsg)]
         public int OldPrice { get; set; }
 
 
@@ -75,6 +76,7 @@ namespace PgrogrammingClass.Core.Domain
         [Display(Name = "نام دسته")]
         public int CategoryId { get; set; }
 
+        public bool IsDeleted { get; set; }
 
         [ForeignKey(nameof(CategoryId))]
         public TblCategory TblCategory { get; set; }

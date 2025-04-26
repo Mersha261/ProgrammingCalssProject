@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PgrogrammingClass.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef75a32a88640e37d0f8c3cc6fede776bf014443")]
 [assembly: System.Reflection.AssemblyProductAttribute("PgrogrammingClass.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PgrogrammingClass.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

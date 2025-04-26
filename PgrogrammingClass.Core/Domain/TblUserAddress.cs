@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PgrogrammingClass.Core.Domain
 {
-    public class TblUserAddress:BaseEntity
+    public class TblUserAddress : BaseEntity
     {
         [Display(Name = "نام کاربر")]
         [MaxLength(450, ErrorMessage = ErrMsgCore.MaxLenghtMsg)]
@@ -57,6 +57,8 @@ namespace PgrogrammingClass.Core.Domain
 
         [ForeignKey(nameof(CityId))]
         public TblCity TblCity { get; set; }
+
+        public IEnumerable<TblShoppingcart> TblShoppingcart { get; set; }
 
     }
 }

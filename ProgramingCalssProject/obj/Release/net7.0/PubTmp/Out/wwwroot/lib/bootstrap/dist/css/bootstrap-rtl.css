@@ -5292,7 +5292,7 @@ input[type="button"].btn-block {
     justify-content: center;
     color: #fff;
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
     background-color: #007bff;
     transition: width 0.6s ease;
 }

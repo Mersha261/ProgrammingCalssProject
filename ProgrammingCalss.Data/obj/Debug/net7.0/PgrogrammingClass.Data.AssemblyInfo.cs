@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PgrogrammingClass.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2169b9becc32dd0cb6e76baecee13c8fac986873")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef75a32a88640e37d0f8c3cc6fede776bf014443")]
 [assembly: System.Reflection.AssemblyProductAttribute("PgrogrammingClass.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PgrogrammingClass.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,142 @@
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.Tblproduct>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>محصولات</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">درج محصول جدید</a>
+</p>
+<form method="get" asp-action="Index" asp-controller="Product" asp-area="Admin">
+    <div class="container my-2">
+        <div class="row">
+            <div class="col-md-3">
+                <label class="lable w3-small green-theme">نام محصول</label>
+                <input type="text" class="form-control" value="@ViewBag.Productname" name="ProductName" autocomplete="off" />
+            </div>
+            <div class="col-md-3">
+                <label class="lable w3-small green-theme">موجودی</label>
+                <select class="form-control" name="Stock">
+                    <option value="">انتخاب کنید</option>
+                    <option value="1">کالاهای موجود</option>
+                    <option value="2">کالاهای تمام شده</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label class="lable w3-small green-theme">تعداد نمایش</label>
+                <select class="form-control" name="PageSize">
+                    <option value="20">پیشفرض</option>
+                    <option value="10">10</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label class="lable w3-small green-theme"></label>
+                <input type="submit" value="جستجو" class="btn btn-sm btn-primary mt-2 btn-block" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                تصویر
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ViewCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoldCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StockQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img class="img-thumbnail img-fluid" width="200" src="@item.ProductImages.FirstOrDefault().Thumbnaile" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ViewCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoldCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StockQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-sm btn-primary " asp-route-id="@item.Id"><i class="fa fa-pencil-square-o"></i></a>
+                    <a asp-action="Details" class="btn btn-sm btn-info " asp-route-id="@item.Id"><i class="fa fa-eye"></i></a>
+                    <a asp-action="Delete" class="btn btn-sm btn-danger" asp-route-id="@item.Id" onclick="return confirm('آیا از حذف این مورد اطمینان دارید؟؟؟')"><i class="fa fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<hr />
+<div class="col-md-12">
+    <div class="w3-margin w3-padding bg-light w3-round-medium">
+        <ul class="pagination">
+            @if (ViewBag.PageCount != 1)
+            {
+                for (int i = 1; i <= ViewBag.PageCount; i++)
+                {
+                    <li class="page-item">
+                        @if (ViewBag.PageIndex == i)
+                        {
+                            <a class="page-link bg-primary text-white"
+                            asp-route-ProductName="@ViewBag.ProductName"
+                            asp-route-PageSize="@ViewBag.PageSize"
+                            asp-route-Stock="@ViewBag.Stock"
+                            asp-action="Index"
+                            asp-controller="Product"
+                            asp-area="Admin" 
+                            asp-route-PageIndex="@i">@i</a>
+
+                        }
+                        else
+                        {
+                            <a class="page-link"
+                               asp-route-ProductName="@ViewBag.ProductName"
+                               asp-route-PageSize="@ViewBag.PageSize"
+                               asp-route-Stock="@ViewBag.Stock"
+                               asp-action="Index"
+                               asp-controller="Product"
+                               asp-area="Admin"
+                               asp-route-PageIndex="@i">@i</a>
+
+                        }
+
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+</div>

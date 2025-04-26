@@ -261,6 +261,10 @@ namespace PgrogrammingClass.Data.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("nvarchar(300)");
 
+                    b.Property<string>("IndexSentens")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("ModifyDate")
                         .HasColumnType("datetime2");
 
@@ -430,6 +434,33 @@ namespace PgrogrammingClass.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TblContactUs");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblOffCopon", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CoponName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ModifyDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Percent")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TblOffCopon");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblPost", b =>
@@ -658,6 +689,114 @@ namespace PgrogrammingClass.Data.Migrations
                     b.ToTable("TblSetting");
                 });
 
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblShoppingCartDetails", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PriceWithOffCopon")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ShoppingCartId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int?>("Weight")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ShoppingCartId");
+
+                    b.ToTable("TblShoppingCartDetails");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblShoppingcart", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int?>("AddressId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Cookie")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CustomOrderNumber")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<bool>("IsCoponSet")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPaied")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsSentToBank")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsSentToUser")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("OffCopon")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("OffPercent")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PayDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PriceWithoutOff")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ShippingPrice")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShippingWayName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalPrice")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TransactionNumber")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("UserId")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddressId");
+
+                    b.ToTable("TblShoppingcart");
+                });
+
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblSocialMedia", b =>
                 {
                     b.Property<int>("Id")
@@ -692,6 +831,62 @@ namespace PgrogrammingClass.Data.Migrations
                     b.ToTable("TblSocialMedia");
                 });
 
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblUserAddress", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Family")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<DateTime>("ModifyDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
+
+                    b.Property<string>("PostalCode")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("UserId")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.ToTable("TblUserAddress");
+                });
+
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.Tblproduct", b =>
                 {
                     b.Property<int>("Id")
@@ -714,6 +909,9 @@ namespace PgrogrammingClass.Data.Migrations
                     b.Property<string>("FullDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("KeyWord")
                         .IsRequired()
@@ -905,6 +1103,37 @@ namespace PgrogrammingClass.Data.Migrations
                     b.Navigation("Tblproduct");
                 });
 
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblShoppingCartDetails", b =>
+                {
+                    b.HasOne("PgrogrammingClass.Core.Domain.TblShoppingcart", "TblShoppingcart")
+                        .WithMany("TblShoppingCartDetails")
+                        .HasForeignKey("ShoppingCartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TblShoppingcart");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblShoppingcart", b =>
+                {
+                    b.HasOne("PgrogrammingClass.Core.Domain.TblUserAddress", "TblUserAddress")
+                        .WithMany("TblShoppingcart")
+                        .HasForeignKey("AddressId");
+
+                    b.Navigation("TblUserAddress");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblUserAddress", b =>
+                {
+                    b.HasOne("PgrogrammingClass.Core.Domain.TblCity", "TblCity")
+                        .WithMany("TblUserAddresses")
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TblCity");
+                });
+
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.Tblproduct", b =>
                 {
                     b.HasOne("PgrogrammingClass.Core.Domain.TblCategory", "TblCategory")
@@ -921,9 +1150,24 @@ namespace PgrogrammingClass.Data.Migrations
                     b.Navigation("Tblproducts");
                 });
 
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblCity", b =>
+                {
+                    b.Navigation("TblUserAddresses");
+                });
+
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblProvince", b =>
                 {
                     b.Navigation("TblCities");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblShoppingcart", b =>
+                {
+                    b.Navigation("TblShoppingCartDetails");
+                });
+
+            modelBuilder.Entity("PgrogrammingClass.Core.Domain.TblUserAddress", b =>
+                {
+                    b.Navigation("TblShoppingcart");
                 });
 
             modelBuilder.Entity("PgrogrammingClass.Core.Domain.Tblproduct", b =>

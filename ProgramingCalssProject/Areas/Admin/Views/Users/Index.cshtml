@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@inject IpersianDateTime dt
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>نام و نام خانوادگی</td>
+            <td>شماره موبایل</td>
+            <td>تاریخ ثبت نام</td>
+            <td>آی پی کاربر</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name @item.Family
+                    </td>
+                <td>
+                    @item.UserName
+                    </td>
+                <td>
+                    @dt.GetPersinaDate(item.CreateDate)
+                </td>
+                <td>
+                    @item.LastIpAddress
+                </td>
+                <td>
+                    <a asp-action="Delete" class="btn btn-danger btn-sm" onclick="return confirm('ایا اطمینان دارید!!!')" asp-route-id="@item.Id">
+                        <i class=" fa fa-trash w3-large"></i>
+                    </a>
+                    <a asp-action="Details" class="btn btn-primary btn-sm"  asp-route-id="@item.Id">
+                        <i class=" fa fa-edit w3-large"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

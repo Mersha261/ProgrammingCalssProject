@@ -1,0 +1,113 @@
+﻿@model PgrogrammingClass.Core.Domain.Tblproduct
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="bg-light shadow p-3 w3-round-medium">
+<h4>ثبت محصول جدید</h4>
+<hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label"></label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Title" class="control-label"></label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ShortDescription" class="control-label"></label>
+                    <textarea asp-for="ShortDescription" class="form-control"></textarea>
+                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FullDescription" class="control-label"></label>
+                    <textarea asp-for="FullDescription" class="form-control"></textarea>
+                    <span asp-validation-for="FullDescription" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Comment" class="control-label"></label>
+                    <input asp-for="Comment" class="form-control" />
+                    <span asp-validation-for="Comment" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="ShowOnHomepage" /> @Html.DisplayNameFor(model => model.ShowOnHomepage)
+                    </label>
+                </div>
+
+                <hr />
+
+                <div class="form-group">
+                    <label asp-for="MetaTitle" class="control-label"></label>
+                    <input asp-for="MetaTitle" class="form-control" />
+                    <span asp-validation-for="MetaTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="KeyWord" class="control-label"></label>
+                    <input asp-for="KeyWord" class="form-control" />
+                    <span asp-validation-for="KeyWord" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MetaDescription" class="control-label"></label>
+                    <input asp-for="MetaDescription" class="form-control" />
+                    <span asp-validation-for="MetaDescription" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="StockQuantity" class="control-label"></label>
+                    <input asp-for="StockQuantity" class="form-control" />
+                    <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OldPrice" class="control-label"></label>
+                    <input asp-for="OldPrice" class="form-control" />
+                    <span asp-validation-for="OldPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Weight" class="control-label"></label>
+                    <input asp-for="Weight" class="form-control" />
+                    <span asp-validation-for="Weight" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class=" my-2">
+                    <div class="w3-round-medium p-2 w3-text-green text-center bg-white">
+                        بارگزاری تصاویر محصول
+                    </div>
+                    <input type="file" class="form-control my-2" name="pic" multiple accept="image/png, image/gif, image/jpeg" />
+                </div>
+                <hr />
+                <div class="form-group">
+                    <input type="submit" value="ثبت اطلاعات" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <hr />
+        <a asp-action="Index" class="btn btn-sm btn-warning">بازگشت به لیست محصولات</a>
+    </div>
+    
+</div>
+
+
+
+@section Scripts{
+    <script>
+        CKEDITOR.replace("FullDescription");
+    </script>
+}

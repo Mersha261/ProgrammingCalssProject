@@ -1,0 +1,150 @@
+﻿@model PgrogrammingClass.Core.Domain.TblPost
+
+@{
+    ViewData["Title"] = "Shipping";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Shipping</h1>
+
+<h4>TblPost</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Shipping">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="InZeroTooFiveHunderedPishtaz" class="control-label"></label>
+                <input asp-for="InZeroTooFiveHunderedPishtaz" class="form-control" />
+                <span asp-validation-for="InZeroTooFiveHunderedPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InZeroTooFiveHunderedSefareshi" class="control-label"></label>
+                <input asp-for="InZeroTooFiveHunderedSefareshi" class="form-control" />
+                <span asp-validation-for="InZeroTooFiveHunderedSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InFiveHondredToThousandPishtaz" class="control-label"></label>
+                <input asp-for="InFiveHondredToThousandPishtaz" class="form-control" />
+                <span asp-validation-for="InFiveHondredToThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InFiveHondredToThousandSefareshi" class="control-label"></label>
+                <input asp-for="InFiveHondredToThousandSefareshi" class="form-control" />
+                <span asp-validation-for="InFiveHondredToThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InOnetoTowThousandPishtaz" class="control-label"></label>
+                <input asp-for="InOnetoTowThousandPishtaz" class="form-control" />
+                <span asp-validation-for="InOnetoTowThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InOnetoTowThousandSefareshi" class="control-label"></label>
+                <input asp-for="InOnetoTowThousandSefareshi" class="form-control" />
+                <span asp-validation-for="InOnetoTowThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InTowtoFiveThousandSefareshi" class="control-label"></label>
+                <input asp-for="InTowtoFiveThousandSefareshi" class="form-control" />
+                <span asp-validation-for="InTowtoFiveThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InTowtoThreeThousandPishtaz" class="control-label"></label>
+                <input asp-for="InTowtoThreeThousandPishtaz" class="form-control" />
+                <span asp-validation-for="InTowtoThreeThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InThreetoFourThousandPishtaz" class="control-label"></label>
+                <input asp-for="InThreetoFourThousandPishtaz" class="form-control" />
+                <span asp-validation-for="InThreetoFourThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InFourtoFiveThousandPishtaz" class="control-label"></label>
+                <input asp-for="InFourtoFiveThousandPishtaz" class="form-control" />
+                <span asp-validation-for="InFourtoFiveThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InPerKiloSefareshi" class="control-label"></label>
+                <input asp-for="InPerKiloSefareshi" class="form-control" />
+                <span asp-validation-for="InPerKiloSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InPerKiloPishtaz" class="control-label"></label>
+                <input asp-for="InPerKiloPishtaz" class="form-control" />
+                <span asp-validation-for="InPerKiloPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutZeroTooFiveHunderedPishtaz" class="control-label"></label>
+                <input asp-for="OutZeroTooFiveHunderedPishtaz" class="form-control" />
+                <span asp-validation-for="OutZeroTooFiveHunderedPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutZeroTooFiveHunderedSefareshi" class="control-label"></label>
+                <input asp-for="OutZeroTooFiveHunderedSefareshi" class="form-control" />
+                <span asp-validation-for="OutZeroTooFiveHunderedSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutFiveHondredToThousandPishtaz" class="control-label"></label>
+                <input asp-for="OutFiveHondredToThousandPishtaz" class="form-control" />
+                <span asp-validation-for="OutFiveHondredToThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutFiveHondredToThousandSefareshi" class="control-label"></label>
+                <input asp-for="OutFiveHondredToThousandSefareshi" class="form-control" />
+                <span asp-validation-for="OutFiveHondredToThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutOnetoTowThousandPishtaz" class="control-label"></label>
+                <input asp-for="OutOnetoTowThousandPishtaz" class="form-control" />
+                <span asp-validation-for="OutOnetoTowThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutOnetoTowThousandSefareshi" class="control-label"></label>
+                <input asp-for="OutOnetoTowThousandSefareshi" class="form-control" />
+                <span asp-validation-for="OutOnetoTowThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutTowtoFiveThousandSefareshi" class="control-label"></label>
+                <input asp-for="OutTowtoFiveThousandSefareshi" class="form-control" />
+                <span asp-validation-for="OutTowtoFiveThousandSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutTowtoThreeThousandPishtaz" class="control-label"></label>
+                <input asp-for="OutTowtoThreeThousandPishtaz" class="form-control" />
+                <span asp-validation-for="OutTowtoThreeThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutThreetoFourThousandPishtaz" class="control-label"></label>
+                <input asp-for="OutThreetoFourThousandPishtaz" class="form-control" />
+                <span asp-validation-for="OutThreetoFourThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutFourtoFiveThousandPishtaz" class="control-label"></label>
+                <input asp-for="OutFourtoFiveThousandPishtaz" class="form-control" />
+                <span asp-validation-for="OutFourtoFiveThousandPishtaz" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutPerKiloSefareshi" class="control-label"></label>
+                <input asp-for="OutPerKiloSefareshi" class="form-control" />
+                <span asp-validation-for="OutPerKiloSefareshi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OutPerKiloPishtaz" class="control-label"></label>
+                <input asp-for="OutPerKiloPishtaz" class="form-control" />
+                <span asp-validation-for="OutPerKiloPishtaz" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="CreateDate" />
+            <input type="hidden" asp-for="ModifyDate" />
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

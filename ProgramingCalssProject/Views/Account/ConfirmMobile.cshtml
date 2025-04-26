@@ -1,0 +1,37 @@
+﻿@model ProgramingCalssProject.Models.ViewModel.ConfirmMobileViewModel
+@{
+    ViewData["Title"] = "ConfirmMobile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12 bg-light">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center green-theme mt-2">
+                <strong class="w3-large">تایید شماره موبایل</strong>
+                <div class="green-line mt-2 mb-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3 padding-0">
+            <div class="w3-round-medium mt-2 bg-white p-2 m-1">
+                <form asp-action="ConfirmMobile" asp-controller="Account" method="post">
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber" class="control-label"></label>
+                        <input asp-for="PhoneNumber" class="form-control" data-toggle="tooltip" data-placement="top" title="شماره موبایل را به صورت انگلیسی وارد نمایید مثال 09123456789 ، بعد از ثبت نام جهت تایید شماره موبایل شما پیامک تایید  برای شما ارسال میشود" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Code" class="control-label"></label>
+                        <input asp-for="Code" class="form-control" data-toggle="tooltip" title="ایمیل را بدون www  وارد نمایید" />
+                        <span asp-validation-for="Code" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <hr />
+                        <input id="submitbtn" type="submit" value="ثبت اطلاعات" class="btn btn-primary btn-sm" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

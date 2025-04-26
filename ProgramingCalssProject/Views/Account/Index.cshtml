@@ -1,0 +1,87 @@
+﻿@model PgrogrammingClass.Core.Domain.ApplicationUser
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] monthList = new string[] { "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند", };
+}
+@inject IpersianDateTime dt
+<div class="container mt-3">
+    <div class="row">
+        <partial name="_AccountPartial" />
+        <div class="col-md-9">
+            <div class="text-center green-theme mt-2">
+                <strong class="w3-large">ویرایش پروفایل</strong>
+                <div class="green-line mt-2 mb-2"></div>
+            </div>
+            <div class="w3-round-medium mt-2 bg-white p-2 m-1">
+                <form asp-action="Index" asp-controller="Account" method="post">
+                    <div class="form-group">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <div>
+                            <input type="radio" asp-for="Gender" value="Female" /><span class="ml-1 w3-small">بانو</span>
+                            <input type="radio" asp-for="Gender" value="Male" /> <span class="ml-1 w3-small">آقا</span>
+                            <input type="radio" asp-for="Gender" value="Other" /> <span class="ml-1 w3-small">دیگر</span>
+                        </div>
+                        <span asp-validation-for="Gender" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Family" class="control-label"></label>
+                        <input asp-for="Family" class="form-control" />
+                        <span asp-validation-for="Family" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">تاریخ تولد</label> @dt.GetPersinaDate(Model.Birthday)
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 padding-0">
+                                    <select name="Day" class="form-control">
+                                        <option value="">روز</option>
+                                        @for (int i = 1; i <= 31; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-4 padding-0">
+                                    <select name="Month" class="form-control">
+                                        <option value="">ماه</option>
+                                        @for (int i = 1; i <= 12; i++)
+                                        {
+                                            <option value="@i">@monthList[i - 1]</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-4 padding-0">
+                                    <select name="Year" class="form-control">
+                                        <option value="">سال</option>
+                                        @for (int i = 1320; i <= 1400; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" data-toggle="tooltip" title="ایمیل را بدون www وارد نمایید" />
+                        <span asp-validation-for="Email" class="text-danger w3-small"></span>
+                    </div>
+                    <div class="form-group">
+                        <hr />
+                        <input id="submitbtn" type="submit" value="ویرایش" class="btn btn-primary btn-sm" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+

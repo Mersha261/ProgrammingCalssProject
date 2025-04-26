@@ -1,25 +1,23 @@
-﻿@{
+﻿@model IEnumerable<PgrogrammingClass.Core.Domain.Tblproduct>
+@{
     ViewData["Title"] = "Home Page";
     Layout = "_Layout";
 }
+@inject IGetData getdata
+
 <div class="container bg-light pt-1 mt-1 pb-1">
     <div class="direction-ltr">
         <section class="lazy slider">
-            <div>
-                <img src="~/pic/steve-jobs-quotes-18.jpg" />
-            </div>
-            <div>
-                <img src="~/pic/steve-jobs-quotes-18.jpg" />
-            </div>
-            <div>
-                <img src="~/pic/steve-jobs-quotes-18.jpg" />
-            </div>
+            @foreach (var item in getdata.GetBanner())
+            {
+                <div>
+                    <img src="@item.Picture" title="@item.Title" alt="@item.Alt" />
+                </div>
+            }
         </section>
     </div>
     <div class="bg-light p-2 m-2 rounded theme">
-        لورم ایپسوم متن ساختگی با تولید
-        سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-        متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+        @ViewBag.indexSentens
     </div>
     <div class="text-center">
         <strong class="theme">محصولات جدید</strong>
@@ -27,93 +25,22 @@
     <div class="theme-line"></div>
     <div class="direction-ltr">
         <section id="newProduct">
-            <div class=" bg-white p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (17).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
+            @foreach (var item in Model.Take(10))
+            {
+                <div class="bg-light p-2 m-2 rounded theme shadow">
+                    <a asp-action="ProductDetails" asp-route-id="@item.Id" asp-route-title="@item.Title">
 
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/WP2013.1 1024x768 (18).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
+                        <img src="@item.ProductImages.FirstOrDefault().Thumbnaile" title="@item.Title" alt="@item.Title" class="img-fluid img-thumbnail m-1" />
+                        <div class="mt-2">
+                            <strong>@item.Title</strong>
+                        </div>
+                        <div class="mt-2 text-muted" style="height:75px;overflow:hidden">
+                            @item.ShortDescription
+                        </div>
+                    </a>
+                    <button class="btn bg-theme text-white btn-block mt-3 btn-sm" onclick="addToCart(@item.Id)">افزودن به سبد خرید</button>
                 </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (19).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (20).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (21).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (22).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (23).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
+            }
         </section>
     </div>
     <div class="text-center mt-3">
@@ -122,93 +49,21 @@
     <div class="theme-line"></div>
     <div class="direction-ltr">
         <section id="mostSoldProduct">
-            <div class="bg-white p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (17).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
+            @foreach (var item in getdata.GetMostSold())
+            {
+                <div class="bg-light p-2 m-2 rounded theme shadow">
+                    <a asp-action="ProductDetails" asp-route-id="@item.Id" asp-route-title="@item.Title">
+                        <img src="@item.ProductImages.FirstOrDefault().Thumbnaile" title="@item.Title" alt="@item.Title" class="img-fluid img-thumbnail m-1" />
+                        <div class="mt-2">
+                            <strong>@item.Title</strong>
+                        </div>
+                        <div class="mt-2 text-muted" style="height:75px;overflow:hidden">
+                            @item.ShortDescription
+                        </div>
+                    </a>
+                    <button class="btn bg-theme text-white btn-block mt-3 btn-sm" onclick="addToCart(@item.Id)">افزودن به سبد خرید</button>
                 </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/WP2013.1 1024x768 (18).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (19).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (20).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (21).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (22).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (23).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
+            }
         </section>
     </div>
     <div class="text-center mt-3">
@@ -217,91 +72,23 @@
     <div class="theme-line"></div>
     <div class="direction-ltr">
         <section id="mostViewedProduct">
-            <div class="bg-white p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (17).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
+            @foreach (var item in Model.Skip(20))
+            {
+                <div class="bg-light p-2 m-2 rounded theme shadow">
+                    <a asp-action="ProductDetails" asp-route-id="@item.Id" asp-route-title="@item.Title">
 
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/WP2013.1 1024x768 (18).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
+                        <img src="@item.ProductImages.FirstOrDefault().Thumbnaile" title="@item.Title" alt="@item.Title" class="img-fluid img-thumbnail m-1" />
+                        <div class="mt-2">
+                            <strong>@item.Title</strong>
+                        </div>
+                        <div class="mt-2 text-muted" style="height:75px;overflow:hidden">
+                            @item.ShortDescription
+                        </div>
+                    </a>
+                        <button class="btn bg-theme text-white btn-block mt-3 btn-sm" onclick="addToCart(@item.Id)">افزودن به سبد خرید</button>
                 </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
+            }
 
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (19).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (20).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (21).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (22).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
-
-            <div class="bg-light p-2 m-2 rounded theme shadow">
-                <img src="~/pic/wp2013.1 1024x768 (23).jpg" class="img-fluid img-thumbnail m-1" />
-                <div class="mt-2">
-                    <strong>عنوان محصول شماره یک</strong>
-                </div>
-                <div class="mt-2 text-muted">
-                    لورم ایپسوم متن ساختگی با تولید
-                    سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و ...
-                </div>
-                <button class="btn bg-theme text-white btn-block mt-3 btn-sm">افزودن به سبد خرید</button>
-            </div>
 
 
         </section>

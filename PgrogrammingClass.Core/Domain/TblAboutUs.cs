@@ -14,6 +14,12 @@ namespace PgrogrammingClass.Core.Domain
         [Required(AllowEmptyStrings = false, ErrorMessage = ErrMsgCore.RequierdMsg)]
         public string AboutUs { get; set; }
 
+        [Display(Name = "شعار صفحه اصلی")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = ErrMsgCore.RequierdMsg)]
+        public string IndexSentens { get; set; }
+
+
+
         [Display(Name = "تماس با ما")]
         [Required(AllowEmptyStrings = false, ErrorMessage = ErrMsgCore.RequierdMsg)]
         public string ContactUs { get; set; }

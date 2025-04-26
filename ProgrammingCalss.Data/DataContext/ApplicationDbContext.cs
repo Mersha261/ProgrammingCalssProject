@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PgrogrammingClass.Core.Domain;
+using PgrogrammingClass.Data.UserAndPassword;
 
 namespace PgrogrammingClass.Data.DataContext
 {
@@ -16,6 +17,8 @@ namespace PgrogrammingClass.Data.DataContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {            
             optionsBuilder.UseSqlServer("Server=.;initial catalog=ProgrammingCalssProject;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;");
+           // optionsBuilder.UseSqlServer("Server=185.55.224.234;initial catalog="+DbUserAndPass.DatabaseUser+";persist security info=True;user id="+DbUserAndPass.UserName+";password="+DbUserAndPass.Password+ ";MultipleActiveResultSets=True;App=EntityFramework&quot;TrustServerCertificate=True;");
+
         }
 
         public DbSet<ApplicationUser> TblUser { get; set; }
@@ -32,6 +35,9 @@ namespace PgrogrammingClass.Data.DataContext
         public DbSet<TblSetting> TblSetting { get; set; } 
         public DbSet<TblSocialMedia> TblSocialMedia { get; set; }
         public DbSet<TblUserAddress> TblUserAddress { get; set; }
+        public DbSet<TblShoppingcart> TblShoppingcart { get; set; }
+        public DbSet<TblShoppingCartDetails> TblShoppingCartDetails { get; set; }
+        public DbSet<TblOffCopon> TblOffCopon { get; set; }
 
     }
 }

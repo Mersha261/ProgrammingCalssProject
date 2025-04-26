@@ -28,7 +28,7 @@ body {
     font-family: Iransans;
 }
 
-.fa-shopping-cart, .fa-sign-in, .fa-heart, .fa-user, .fa-home, .fa-list, .fa-info, .fa-phone{
+.fa-shopping-cart, .fa-sign-in, .fa-heart, .fa-user, .fa-home, .fa-list, .fa-info, .fa-phone, .fa-user-plus, .fa-key, .fa-sign-out {
     font-size: 30px;
     color: #1a92bc;
 }
@@ -140,4 +140,15 @@ body {
     height: 65px;
     z-index: 1100;
     opacity:.7;
+}
+
+.product-image-delete-button-container {
+    width: fit-content;
+    display: inline-block;
+    position:relative;
+}
+.product-image-delete-button {
+    position: absolute;
+    top: 15px;
+    left: 15px
 }

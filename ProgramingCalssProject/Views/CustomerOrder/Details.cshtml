@@ -1,0 +1,149 @@
+﻿@model PgrogrammingClass.Core.Domain.TblShoppingcart
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@inject IGetData getData
+@inject IpersianDateTime dt
+<div class="w3-card-2 p-3 w3-round-medium">
+    <div class="p-2 w3-round-medium bg-light my-2">
+        شماره فاکتور: @Model.CustomOrderNumber
+    </div>
+    <dl class="row">
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.IsSentToUser)
+        </dt>
+        <dd class="col-md-9">
+            @if (Model.IsSentToUser)
+            {
+                <span class="text-success"><i class="fa fa-check"></i></span>
+            }
+            else
+            {
+                <span class="text-danger"><i class="fa fa-close"></i></span>
+            }
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.PayDate)
+        </dt>
+        <dd class="col-md-9">
+            @dt.GetPersinaDate(Model.PayDate)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.PriceWithoutOff)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.PriceWithoutOff)
+        </dd>
+
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.IsCoponSet)
+        </dt>
+        <dd class="col-md-9">
+            @if (Model.IsCoponSet)
+            {
+                <span class="text-success"><i class="fa fa-check"></i></span>
+            }
+            else
+            {
+                <span class="text-danger"><i class="fa fa-close"></i></span>
+            }
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.OffCopon)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.OffCopon)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.OffPercent)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.OffPercent)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.TransactionNumber)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.TransactionNumber)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.CustomOrderNumber)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.CustomOrderNumber)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd class="col-md-9">
+            @dt.GetPersinaDate(Model.CreateDate)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.ShippingWayName)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.ShippingWayName)
+        </dd>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.ShippingPrice)
+        </dt>
+        <dd class="col-md-9">
+            @Html.DisplayFor(model => model.ShippingPrice)
+        </dd>
+    </dl>
+    <hr />
+    <div class="bg-white w3-round-medium text-center p-2">
+        محصولات
+    </div>
+
+    @foreach (var item in Model.TblShoppingCartDetails)
+    {
+        int totalprice = item.Price * item.Count;
+        <div class="col-md-12">
+            <div class="m-2 bg-white">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="@getData.GetImageByProductId(item.ProductId)" class="img-thumbnail img-fluid m-1" alt="@item.ProductName" title="@item.ProductName" width="150" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="m-2">
+                                <span class="w3-text-gray">
+                                    نام محصول : @item.ProductName
+                                </span>
+                            </div>
+                            <div class="m-2">
+                                <div class="w3-text-gray d-inline-block">
+                                    تعداد :@item.Count
+                                </div>
+                            </div>
+                            <div class="m-2">
+                                <span class="w3-text-gray">
+                                    قیمت :@item.Price
+                                </span>
+                            </div>
+                            <div class="m-2">
+                                <span class="w3-text-gray">
+                                    قیمت کل :@totalprice
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+<hr />
+<a asp-action="Index" asp-controller="CustomerOrder" class="btn btn-primary m-3"> بازگشت <i class=" fa fa-return"></i></a>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NDJnrUqEiuEJLzkynd/sK0BjMvN+VEifCy/VjEMIcRTUogaDCvhDj0bgVdK1f5XuZxyOhsVHjTXsZTHaflnsWQ==",
+  "dgSpecHash": "DFnQOP5X/pk=",
   "success": true,
   "projectFilePath": "D:\\ProgrammingCalssProject\\ProgrammingClass.Sevices\\PgrogrammingClass.Sevices.csproj",
   "expectedPackageFiles": [
@@ -171,7 +171,10 @@
     "C:\\Users\\Mehrshad\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Mehrshad\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Mehrshad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Mehrshad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Mehrshad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Mehrshad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Mehrshad\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Mehrshad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
